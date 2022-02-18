@@ -1,16 +1,16 @@
 # Solitreo
 
-[![][Fontbakery]](https://googlefonts.github.io/Unified-Font-Repository/fontbakery-report.html)
-[![][Universal]](https://googlefonts.github.io/Unified-Font-Repository/fontbakery-report.html)
-[![][GF Profile]](https://googlefonts.github.io/Unified-Font-Repository/fontbakery-report.html)
-[![][Outline Correctness]](https://googlefonts.github.io/Unified-Font-Repository/fontbakery-report.html)
-[![][Shaping]](https://googlefonts.github.io/Unified-Font-Repository/fontbakery-report.html)
+[![][Fontbakery]](https://eliheuer.github.io/solitreo/fontbakery-report.html)
+[![][Universal]](https://eliheuer.github.io/solitreo/fontbakery-report.html)
+[![][GF Profile]](https://eliheuer.github.io/solitreo/fontbakery-report.html)
+[![][Outline Correctness]](https://eliheuer.github.io/solitreo/fontbakery-report.html)
+[![][Shaping]](https://eliheuer.github.io/solitreo/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2FUnified-Font-Repository%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2FUnified-Font-Repository%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2FUnified-Font-Repository%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2FUnified-Font-Repository%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2FUnified-Font-Repository%2Fgh-pages%2Fbadges%2FUniversal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fsolitreo%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fsolitreo%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fsolitreo%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fsolitreo%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fsolitreo%2Fgh-pages%2Fbadges%2FUniversal.json
 
 Judeo-Spanish (Ladino) refers to the variety of Spanish that developed among Jewish populations who were expelled from Spain in 1492 and subsequently settled throughout Turkey and the Balkans, then of the Ottoman Empire. These Jews, known as Sephardim, preserved many features of Medieval (varieties of) Spanish, while incorporating linguistic elements from the languages spoken in their surroundings, including: Turkish, Greek, Serbo-Croatian, French, Italian, and Arabic. As a Jewish language, the Spanish of the Sephardim has always been in contact with Hebrew. And while Judeo-Spanish may sound like other Romance languages, in writing, it would have traditionally appeared more similar to a Semitic language.
 
