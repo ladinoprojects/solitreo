@@ -16,8 +16,6 @@ Judeo-Spanish (Ladino) refers to the variety of Spanish that developed among Jew
 
 Solitreo refers to the Hebrew-based cursive script once used by Sephardim; it is the cursive variety of the Rashi alphabet. Solitreo, or Soletreo, is derived from Galician/Portuguese, meaning ‘to spell.’ For many Sephardim, Solitreo was simply known as ganchos, meaning ‘hooks,’ due to the ligatures that form between letters. This style of writing is distinct from the Ashkenazi-based alphabet used for cursive Hebrew today, making documents in Solitreo undecipherable to the untrained eye. A similar style of writing can also be found in documents written in Judeo-Arabic. Today, Solitreo is a relic of the past, as most writers of the language utilize Roman characters.
 
-![Sample Image](documentation/image1.png)
-
 ## About
 
 This font was developed by the [Documenting Judeo-Spanish Project](https://documentingjudeospanish.com/).
