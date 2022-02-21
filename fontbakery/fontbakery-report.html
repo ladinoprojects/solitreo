@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>7</td>
+                <td>10</td>
+                <td>122</td>
+                <td>7</td>
+                <td>76</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>4%</td>
+                <td>6%</td>
+                <td>70%</td>
+                <td>4%</td>
+                <td>44%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking file is named canonically.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/canonical_filename&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Style name used in &quot;fonts/ttf/Solitreo.ttf&quot; is not canonical. You should rebuild the font using any of the following style names: &quot;Thin&quot;, &quot;ExtraLight&quot;, &quot;Light&quot;, &quot;Regular&quot;, &quot;Medium&quot;, &quot;SemiBold&quot;, &quot;Bold&quot;, &quot;ExtraBold&quot;, &quot;Black&quot;, &quot;Thin Italic&quot;, &quot;ExtraLight Italic&quot;, &quot;Light Italic&quot;, &quot;Italic&quot;, &quot;Medium Italic&quot;, &quot;SemiBold Italic&quot;, &quot;Bold Italic&quot;, &quot;ExtraBold Italic&quot;, &quot;Black Italic&quot;. [code: bad-static-filename]</p>
+</span></li></ul></div></details>
+<h3>Checking OS/2 achVendID.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vendor_id&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID is 'PfEd', a font editor default. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: bad]</p>
+</span></li></ul></div></details>
+<h3>Check `Google Fonts Latin Core` glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x0041 (LATIN CAPITAL LETTER A)
+
+- 0x0042 (LATIN CAPITAL LETTER B)
+
+- 0x0043 (LATIN CAPITAL LETTER C)
+
+- 0x0044 (LATIN CAPITAL LETTER D)
+
+- 0x0045 (LATIN CAPITAL LETTER E)
+
+- 0x0046 (LATIN CAPITAL LETTER F)
+
+- 0x0047 (LATIN CAPITAL LETTER G)
+
+- 0x0048 (LATIN CAPITAL LETTER H)
+
+- 0x0049 (LATIN CAPITAL LETTER I)
+
+- 0x004A (LATIN CAPITAL LETTER J)
+
+- And 165 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Check copyright namerecords match license file.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright (c) 2019, Nathan Gross&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Are there caret positions declared for every ligature?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/ligature_carets&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font lacks caret positioning values for these ligature glyphs:
+- greater_greater
+- less_less
+- qudblleft_qudblleft_qudblleft
+- qudblrit_qudblrit_qudblrit
+- quotedbl_qudblrt_qudblrt
+- quotedbl_quotedbl
+- quotedbl_quotedbl_quotedbl
+- quotedbl_quotedblright
+- quotedblbase
+- quotedblleft_quotedblleft
+- quotedblright_quotedblright</p>
+<p>[code: incomplete-caret-pos-data]</p>
+</span></li></ul></div></details>
+<h3>Is there kerning info for non-ligated sequences?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:
+- quotedbl + quotedbl
+- quotedbl + quotedblright
+- quotedblright + quotedblright
+- quotedblright + quotedbl
+- less + less
+- greater + greater
+- uni05D1 + quoteright
+- quoteright + quotesingle
+- quotesingle + uni05F3
+- uni05D2 + quoteright
+- quoteright + uni05D5
+- uni05D5 + quoteright
+- quoteright + uni05D9
+- uni05D9 + quotesingle
+- quotesingle + uni05D5
+- uni05D5 + quotesingle
+- quotesingle + uni05D9
+- uni05D9 + uni05F3
+- uni05F3 + uni05D5
+- uni05D5 + uni05F3
+- uni05F3 + uni05D9
+- uni05D9 + quoteright
+- uni05D5 + uni05D9
+- uni05D3 + quoteright
+- uni05D9 + uni05D9
+- uni05D9 + uni05D5
+- uni05D4 + quoteright
+- uni05D6 + quoteright
+- uni05DF + quoteright
+- uni05E1 + quoteright
+- uni05E4 + quoteright
+- uni05E8 + uni05D1
+- quoteright + uni05D1
+- uni05D1 + quotesingle
+- quotesingle + uni05D1
+- uni05D1 + uni05F3
+- uni05E9 + quoteright
+- quotedblleft + quotedblleft
+- uni05D3.alt + quoteright
+- uni05D2.alt + quoteright
+- comma + comma</p>
+<p>[code: lacks-kern-info]</p>
+</span></li></ul></div></details>
+<h3>Combined length of family and style must not exceed 27 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Solitreo Project Font' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h3>Check font can render its own name.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/render_own_name&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render Solitreo Project Font [code: render-own-name]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Checking OS/2 Metrics match hhea Metrics.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2_metrics_match_hhea&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (629) and hhea ascent (677) must be equal. [code: ascender]</p>
+</span></li></ul></div></details>
+<h3>Font contains glyphs for whitespace characters?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphs&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+</span></li></ul></div></details>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
+- nameme.300
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: percent	Contours detected: 4	Expected: 5
+- Glyph name: at	Contours detected: 1	Expected: 2
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+- Glyph name: at	Contours detected: 1	Expected: 2
+- Glyph name: percent	Contours detected: 4	Expected: 5 
+- And Glyph name: uni00AD	Contours detected: 1	Expected: 0
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.hhea&gt; ⚠️</h2>
+<h3>Checking Vertical Metric Linegaps.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/linegaps&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>hhea lineGap is not equal to 0. [code: hhea]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️</h2>
+<h3>Check mark characters are in GDEF mark glyph class.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_mark_chars&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+uni05BF (U+05BF) and uniFB1E (U+FB1E) [code: mark-chars]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
+* percent (U+0025): X=89.0,Y=1.0 (should be at baseline 0?)
+* percent (U+0025): X=87.0,Y=1.0 (should be at baseline 0?)
+* percent (U+0025): X=295.0,Y=1.0 (should be at baseline 0?)
+* ampersand (U+0026): X=445.0,Y=630.0 (should be at ascender 629?)
+* ampersand (U+0026): X=122.0,Y=-2.0 (should be at baseline 0?)
+* ampersand (U+0026): X=445.0,Y=630.0 (should be at ascender 629?)
+* parenleft (U+0028): X=42.5,Y=1.0 (should be at baseline 0?)
+* slash (U+002F): X=290.0,Y=627.0 (should be at ascender 629?)
+* slash (U+002F): X=297.0,Y=628.0 (should be at ascender 629?)
+* slash (U+002F): X=290.0,Y=627.0 (should be at ascender 629?) and 38 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>
