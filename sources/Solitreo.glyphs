@@ -1,6 +1,9 @@
 {
 .appVersion = "3114";
 .formatVersion = 3;
+DisplayStrings = (
+"/uni05D0.yud"
+);
 classes = (
 {
 code = seven;
@@ -381,7 +384,7 @@ color = 5;
 glyphname = A;
 kernLeft = kern_A3;
 kernRight = kern_A3;
-lastChange = "2022-03-01 04:52:26 +0000";
+lastChange = "2022-03-03 01:10:31 +0000";
 layers = (
 {
 anchors = (
