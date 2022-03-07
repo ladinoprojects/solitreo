@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFB1E" format="2">
+	<advance width="325"/>
+	<unicode hex="FB1E"/>
+	<outline>
+		<contour>
+			<point x="227" y="628" type="curve" smooth="yes"/>
+			<point x="231" y="634"/>
+			<point x="239" y="640"/>
+			<point x="252" y="640" type="curve" smooth="yes"/>
+			<point x="260" y="640"/>
+			<point x="270" y="638"/>
+			<point x="282" y="632" type="curve" smooth="yes"/>
+			<point x="297" y="625"/>
+			<point x="302" y="615"/>
+			<point x="302" y="607" type="curve" smooth="yes"/>
+			<point x="302" y="602"/>
+			<point x="301" y="598"/>
+			<point x="298" y="594" type="curve" smooth="yes"/>
+			<point x="268" y="550"/>
+			<point x="200" y="476"/>
+			<point x="165" y="469" type="curve" smooth="yes"/>
+			<point x="161" y="468"/>
+			<point x="158" y="467"/>
+			<point x="154" y="467" type="curve" smooth="yes"/>
+			<point x="139" y="467"/>
+			<point x="129" y="475"/>
+			<point x="129" y="486" type="curve" smooth="yes"/>
+			<point x="129" y="487"/>
+			<point x="130" y="489"/>
+			<point x="130" y="491" type="curve" smooth="yes"/>
+			<point x="136" y="508"/>
+			<point x="171" y="543"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-03-04 03:41:19 +0000</string>
+		</dict>
+	</lib>
+</glyph>
