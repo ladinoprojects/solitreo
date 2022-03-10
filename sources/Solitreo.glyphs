@@ -1,8 +1,5 @@
 {
 .appVersion = "3116";
-DisplayStrings = (
-A
-);
 classes = (
 {
 code = "alef-hb bet-hb gimel-hb dalet-hb he-hb vav-hb zayin-hb het-hb tet-hb yod-hb finalkaf-hb kaf-hb lamed-hb finalmem-hb mem-hb finalnun-hb nun-hb samekh-hb ayin-hb finalpe-hb pe-hb finaltsadi-hb tsadi-hb qof-hb resh-hb shin-hb tav-hb";
@@ -9956,7 +9953,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{293, 0}";
+position = "{85, 0}";
 },
 {
 name = bottomleft;
@@ -9964,7 +9961,7 @@ position = "{25, 0}";
 },
 {
 name = center;
-position = "{242, 120}";
+position = "{176, 120}";
 },
 {
 name = top;
@@ -9972,7 +9969,7 @@ position = "{293, 520}";
 },
 {
 name = topleft;
-position = "{25, 520}";
+position = "{85, 520}";
 }
 );
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -9980,74 +9977,97 @@ paths = (
 {
 closed = 1;
 nodes = (
-"515 0 LINE SMOOTH",
-"526 0 OFFCURVE",
-"535 9 OFFCURVE",
-"535 20 CURVE SMOOTH",
-"535 25 OFFCURVE",
-"533 30 OFFCURVE",
-"528 39 CURVE",
-"160 554 LINE",
-"155 561 OFFCURVE",
-"147 571 OFFCURVE",
-"132 571 CURVE SMOOTH",
-"85 571 LINE SMOOTH",
-"74 571 OFFCURVE",
-"64 562 OFFCURVE",
-"64 551 CURVE SMOOTH",
-"64 546 OFFCURVE",
-"66 540 OFFCURVE",
-"71 532 CURVE SMOOTH",
-"438 17 LINE",
-"444 10 OFFCURVE",
-"451 0 OFFCURVE",
-"466 0 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"116 0 LINE SMOOTH",
-"130 0 OFFCURVE",
-"139 10 OFFCURVE",
-"139 23 CURVE SMOOTH",
-"139 169 LINE SMOOTH",
-"139 227 OFFCURVE",
-"150 296 OFFCURVE",
-"223 343 CURVE",
-"177 410 LINE",
-"72 344 OFFCURVE",
-"53 264 OFFCURVE",
-"53 173 CURVE SMOOTH",
-"53 23 LINE SMOOTH",
-"53 10 OFFCURVE",
-"63 0 OFFCURVE",
-"76 0 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"513 248 OFFCURVE",
-"531 320 OFFCURVE",
-"531 405 CURVE SMOOTH",
-"531 548 LINE SMOOTH",
-"531 561 OFFCURVE",
-"521 571 OFFCURVE",
-"508 571 CURVE SMOOTH",
-"466 571 LINE SMOOTH",
-"453 571 OFFCURVE",
-"443 561 OFFCURVE",
-"443 548 CURVE SMOOTH",
-"443 410 LINE SMOOTH",
-"443 349 OFFCURVE",
-"443 298 OFFCURVE",
-"345 252 CURVE",
-"386 183 LINE"
+"-75 -1 OFFCURVE",
+"-82 7 OFFCURVE",
+"-82 17 CURVE SMOOTH",
+"-82 27 OFFCURVE",
+"-72 39 OFFCURVE",
+"-61 41 CURVE SMOOTH",
+"46 60 OFFCURVE",
+"164 700 OFFCURVE",
+"304 700 CURVE SMOOTH",
+"338 700 OFFCURVE",
+"351 681 OFFCURVE",
+"351 655 CURVE SMOOTH",
+"351 620 OFFCURVE",
+"333 580 OFFCURVE",
+"298 580 CURVE SMOOTH",
+"291 580 OFFCURVE",
+"285 582 OFFCURVE",
+"277 582 CURVE SMOOTH",
+"266 582 OFFCURVE",
+"255 577 OFFCURVE",
+"248 562 CURVE SMOOTH",
+"202 461 OFFCURVE",
+"110 -1 OFFCURVE",
+"-55 -1 CURVE SMOOTH"
 );
 }
 );
-width = 587.875;
+width = 156;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{85, 0}";
+},
+{
+name = bottomleft;
+position = "{25, 0}";
+},
+{
+name = center;
+position = "{176, 120}";
+},
+{
+name = top;
+position = "{293, 520}";
+},
+{
+name = topleft;
+position = "{85, 520}";
+}
+);
+associatedMasterId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
+layerId = "5CF4FD32-8DD9-4A99-A5D3-1AF5D90F9257";
+name = "Mar 9, 22, 23:11";
+paths = (
+{
+closed = 1;
+nodes = (
+"202 461 OFFCURVE",
+"110 -1 OFFCURVE",
+"-55 -1 CURVE SMOOTH",
+"-75 -1 OFFCURVE",
+"-82 7 OFFCURVE",
+"-82 17 CURVE SMOOTH",
+"-82 27 OFFCURVE",
+"-72 39 OFFCURVE",
+"-61 41 CURVE SMOOTH",
+"46 60 OFFCURVE",
+"164 700 OFFCURVE",
+"304 700 CURVE SMOOTH",
+"338 700 OFFCURVE",
+"351 681 OFFCURVE",
+"351 655 CURVE SMOOTH",
+"351 620 OFFCURVE",
+"333 580 OFFCURVE",
+"298 580 CURVE SMOOTH",
+"295 580 OFFCURVE",
+"291 580 OFFCURVE",
+"287 581 CURVE SMOOTH",
+"284 582 OFFCURVE",
+"280 582 OFFCURVE",
+"277 582 CURVE SMOOTH",
+"265 582 OFFCURVE",
+"255 577 OFFCURVE",
+"248 562 CURVE SMOOTH"
+);
+}
+);
+visible = 1;
+width = 156;
 }
 );
 unicode = 05D0;
@@ -10088,11 +10108,11 @@ name = "alef-hb";
 },
 {
 name = "patah-hb";
-transform = "{1, 0, 0, 1, 291, 4}";
+transform = "{1, 0, 0, 1, 83, 4}";
 }
 );
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
-width = 588;
+width = 156;
 }
 );
 unicode = FB2E;
@@ -10108,11 +10128,11 @@ name = "alef-hb";
 },
 {
 name = "qamatsqatan-hb";
-transform = "{1, 0, 0, 1, 291, 0}";
+transform = "{1, 0, 0, 1, 83, 0}";
 }
 );
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
-width = 588;
+width = 156;
 }
 );
 unicode = FB2F;
@@ -10128,11 +10148,11 @@ name = "alef-hb";
 },
 {
 name = "dagesh-hb";
-transform = "{1, 0, 0, 1, 230, -168}";
+transform = "{1, 0, 0, 1, 164, -168}";
 }
 );
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
-width = 588;
+width = 156;
 }
 );
 unicode = FB30;
