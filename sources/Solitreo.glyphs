@@ -10816,7 +10816,7 @@ position = "{30, 0}";
 },
 {
 name = center;
-position = "{228, 145}";
+position = "{221, 145}";
 },
 {
 name = top;
@@ -10828,6 +10828,89 @@ position = "{107, 79}";
 }
 );
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
+paths = (
+{
+closed = 1;
+nodes = (
+"10 -66 OFFCURVE",
+"-8 -19 OFFCURVE",
+"-8 18 CURVE SMOOTH",
+"-8 54 OFFCURVE",
+"2 89 OFFCURVE",
+"70 89 CURVE SMOOTH",
+"123 89 OFFCURVE",
+"190 58 OFFCURVE",
+"246 58 CURVE SMOOTH",
+"309 58 OFFCURVE",
+"334 106 OFFCURVE",
+"334 177 CURVE SMOOTH",
+"334 213 OFFCURVE",
+"372 223 OFFCURVE",
+"412 223 CURVE SMOOTH",
+"423 223 OFFCURVE",
+"435 216 OFFCURVE",
+"435 201 CURVE SMOOTH",
+"435 94 OFFCURVE",
+"354 14 OFFCURVE",
+"255 14 CURVE SMOOTH",
+"201 14 OFFCURVE",
+"161 38 OFFCURVE",
+"116 38 CURVE SMOOTH",
+"78 38 OFFCURVE",
+"70 19 OFFCURVE",
+"70 -2 CURVE SMOOTH",
+"70 -18 OFFCURVE",
+"75 -36 OFFCURVE",
+"75 -47 CURVE SMOOTH",
+"75 -59 OFFCURVE",
+"75 -66 OFFCURVE",
+"53 -66 CURVE SMOOTH"
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = "het-hb";
+com.schriftgestaltung.hints = (
+{
+horizontal = 1;
+options = 0;
+origin = (
+0,
+11
+);
+stem = -2;
+type = Tag;
+}
+);
+};
+width = 467;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{230, 0}";
+},
+{
+name = bottomleft;
+position = "{30, 0}";
+},
+{
+name = center;
+position = "{228, 145}";
+},
+{
+name = top;
+position = "{378, 251}";
+},
+{
+name = topleft;
+position = "{107, 79}";
+}
+);
+associatedMasterId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
+layerId = "F2D27739-EAA6-4AFF-B28E-06E1E8522342";
+name = "Mar 10, 22, 20:30";
 paths = (
 {
 closed = 1;
@@ -10892,6 +10975,7 @@ type = Tag;
 }
 );
 };
+visible = 1;
 width = 467;
 }
 );
@@ -10921,7 +11005,7 @@ name = "he-hb";
 },
 {
 name = "dagesh-hb";
-transform = "{1, 0, 0, 1, 216, -143}";
+transform = "{1, 0, 0, 1, 209, -143}";
 }
 );
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
