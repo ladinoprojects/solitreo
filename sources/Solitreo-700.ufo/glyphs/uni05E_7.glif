@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni05E7" format="2">
+	<advance width="189"/>
+	<unicode hex="05E7"/>
+	<outline>
+		<contour>
+			<point x="55" y="199" type="curve" smooth="yes"/>
+			<point x="55" y="235"/>
+			<point x="92" y="245"/>
+			<point x="132" y="245" type="curve" smooth="yes"/>
+			<point x="144" y="245"/>
+			<point x="156" y="238"/>
+			<point x="156" y="224" type="curve" smooth="yes"/>
+			<point x="156" y="112"/>
+			<point x="107" y="24"/>
+			<point x="1" y="0" type="curve" smooth="yes"/>
+			<point x="-96" y="-22"/>
+			<point x="-216" y="-413"/>
+			<point x="-317" y="-413" type="curve" smooth="yes"/>
+			<point x="-338" y="-413"/>
+			<point x="-354" y="-394"/>
+			<point x="-354" y="-373" type="curve" smooth="yes"/>
+			<point x="-354" y="-332"/>
+			<point x="-324" y="-293"/>
+			<point x="-297" y="-293" type="curve" smooth="yes"/>
+			<point x="-280" y="-293"/>
+			<point x="-278" y="-293"/>
+			<point x="-268" y="-277" type="curve" smooth="yes"/>
+			<point x="-186" y="-152"/>
+			<point x="-110" y="5"/>
+			<point x="-33" y="36" type="curve" smooth="yes"/>
+			<point x="20" y="57"/>
+			<point x="55" y="93"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-03-04 03:41:19 +0000</string>
+		</dict>
+	</lib>
+</glyph>
