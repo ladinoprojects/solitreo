@@ -46,21 +46,6 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
-disabled = 1;
-name = "Axis Mappings";
-value = {
-wght = {
-300 = 60;
-400 = 90;
-500 = 125;
-600 = 142;
-700 = 160;
-800 = 190;
-900 = 220;
-};
-};
-},
-{
 name = "Enforce Compatibility Check";
 value = 0;
 },
