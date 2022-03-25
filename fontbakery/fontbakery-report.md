@@ -3,7 +3,7 @@
 Fontbakery version: 0.8.6
 
 <details>
-<summary><b>[14] Solitreo-Regular.ttf</b></summary>
+<summary><b>[12] Solitreo-Regular.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary>
 
@@ -75,70 +75,6 @@ Check CJK family has the same vertical metrics as the same family hosted on
 Google Fonts.</pre>
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00A4 (CURRENCY SIGN)
-
-	- 0x00AD (SOFT HYPHEN)
-
-	- 0x00C2 (LATIN CAPITAL LETTER A WITH CIRCUMFLEX)
-
-	- 0x02BB (MODIFIER LETTER TURNED COMMA)
-
-	- 0x2002 (EN SPACE)
-
-	- 0x2009 (THIN SPACE)
-
-	- 0x200B (ZERO WIDTH SPACE)
-
-	- 0x2032 (PRIME)
-
-	- 0x2033 (DOUBLE PRIME)
-
-	- 0x2122 (TRADE MARK SIGN)
- 
-	- And 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 415, but got 307 instead. [code: descent]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width?</summary>
-
-* [com.google.fonts/check/whitespace_widths](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths)
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 211 font units wide, non-breaking space named (uni00A0) is 245 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 
 </details>
 <details>
@@ -215,20 +151,57 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- two.dnom
-	- brevecombcy.case
-	- brevecombcy
-	- uni0326.case
-	- uni0306.case
-	- uni0304.case
-	- four.dnom
+	- zero.dnom
+	- five.dnom
+	- one.dnom
+	- uni030C.case
+	- seven.dnom
 	- five.numr
-	- six.numr
-	- uni0328.case 
+	- zero.numr
+	- two.numr
+	- six.dnom
+	- uni0326.case 
 	- And 21 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: percent	Contours detected: 4	Expected: 5
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: fbfix	Contours detected: 0	Expected: 1
+	- Glyph name: prime	Contours detected: 0	Expected: 1
+	- Glyph name: doublePrime	Contours detected: 0	Expected: 2
+	- Glyph name: arrowup	Contours detected: 0	Expected: 1
+	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
+	- Glyph name: uniFFFD	Contours detected: 0	Expected: 3 or 5
+	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
+	- Glyph name: arrowup	Contours detected: 0	Expected: 1 
+	- And 3 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: contour-count]
 
 </details>
 <details>
@@ -255,16 +228,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* parenleft (U+0028): X=308.0,Y=701.5 (should be at cap-height 700?)
-	* parenright (U+0029): X=31.0,Y=701.5 (should be at cap-height 700?)
-	* one (U+0031): X=265.0,Y=699.0 (should be at cap-height 700?)
+	* percent (U+0025): X=95.0,Y=1.0 (should be at baseline 0?)
+	* percent (U+0025): X=328.0,Y=1.0 (should be at baseline 0?)
+	* percent (U+0025): X=328.0,Y=1.0 (should be at baseline 0?)
+	* ampersand (U+0026): X=136.0,Y=-2.0 (should be at baseline 0?)
+	* ampersand (U+0026): X=495.0,Y=701.0 (should be at cap-height 700?)
+	* ampersand (U+0026): X=136.0,Y=-2.0 (should be at baseline 0?)
+	* parenleft (U+0028): X=47.5,Y=0.5 (should be at baseline 0?)
 	* bracketright (U+005D): X=33.5,Y=701.5 (should be at cap-height 700?)
 	* asciicircum (U+005E): X=168.0,Y=701.0 (should be at cap-height 700?)
-	* asciicircum (U+005E): X=264.0,Y=701.0 (should be at cap-height 700?)
-	* grave (U+0060): X=72.0,Y=701.0 (should be at cap-height 700?)
-	* section (U+00A7): X=71.0,Y=-2.0 (should be at baseline 0?)
-	* acute (U+00B4): X=265.0,Y=701.0 (should be at cap-height 700?)
-	* agrave (U+00E0): X=126.0,Y=701.0 (should be at cap-height 700?) and 63 more.
+	* asciicircum (U+005E): X=264.0,Y=701.0 (should be at cap-height 700?) and 67 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -276,8 +249,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 6 | 3 | 5 | 102 | 7 | 99 | 0 |
-| 3% | 1% | 2% | 46% | 3% | 45% | 0% |
+| 6 | 0 | 6 | 102 | 7 | 101 | 0 |
+| 3% | 0% | 3% | 46% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
