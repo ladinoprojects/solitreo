@@ -3,22 +3,78 @@
 Fontbakery version: 0.8.6
 
 <details>
-<summary><b>[17] Solitreo.ttf</b></summary>
+<summary><b>[14] Solitreo-Regular.ttf</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
+<summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary>
 
-* [com.google.fonts/check/canonical_filename](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename)
+* [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 <pre>--- Rationale ---
-A font&#x27;s filename must be composed in the following manner:
-&lt;familyname&gt;-&lt;stylename&gt;.ttf
-- Nunito-Regular.ttf,
-- Oswald-BoldItalic.ttf
-Variable fonts must list the axis tags in alphabetical order in square brackets
-and separated by commas:
-- Roboto[wdth,wght].ttf
-- Familyname-Italic[wght].ttf</pre>
+Check METADATA.pb file includes the same subsets as the family in production.</pre>
 
-* 🔥 **FAIL** Style name used in "fonts/ttf/Solitreo.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+</details>
+<details>
+<summary>💔 <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/version_bump](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump)
+
+* 💔 **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+</details>
+<details>
+<summary>💔 <b>ERROR:</b> Glyphs are similiar to Google Fonts version?</summary>
+
+* [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
+
+* 💔 **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+</details>
+<details>
+<summary>💔 <b>ERROR:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts.</summary>
+
+* [com.google.fonts/check/vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions)
+<pre>--- Rationale ---
+If the family already exists on Google Fonts, we need to ensure that the checked
+family&#x27;s vertical metrics are similar. This check will test the following schema
+which was outlined in Fontbakery issue #1162 [1]:
+- The family should visually have the same vertical metrics as the Regular style
+hosted on Google Fonts.
+- If the family on Google Fonts has differing hhea and typo metrics, the family
+being checked should use the typo metrics for both the hhea and typo entries.
+- If the family on Google Fonts has use typo metrics not enabled and the family
+being checked has it enabled, the hhea and typo metrics should use the family on
+Google Fonts winAscent and winDescent values.
+- If the upms differ, the values must be scaled so the visual appearance is the
+same.
+[1] https://github.com/googlefonts/fontbakery/issues/1162</pre>
+
+* 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+</details>
+<details>
+<summary>💔 <b>ERROR:</b> Check font follows the Google Fonts CJK vertical metric schema</summary>
+
+* [com.google.fonts/check/cjk_vertical_metrics](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics)
+<pre>--- Rationale ---
+CJK fonts have different vertical metrics when compared to Latin fonts. We
+follow the schema developed by dr Ken Lunde for Source Han Sans and the Noto CJK
+fonts.
+Our documentation includes further information:
+https://github.com/googlefonts/gf-docs/tree/main/Spec#cjk-vertical-metrics</pre>
+
+* 💔 **ERROR** The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+</details>
+<details>
+<summary>💔 <b>ERROR:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts.</summary>
+
+* [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
+<pre>--- Rationale ---
+Check CJK family has the same vertical metrics as the same family hosted on
+Google Fonts.</pre>
+
+* 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 
 </details>
 <details>
@@ -31,105 +87,58 @@ set of characters defined in the `GF-latin-core` glyph-set.</pre>
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0041 (LATIN CAPITAL LETTER A)
+	- 0x00A4 (CURRENCY SIGN)
 
-	- 0x0042 (LATIN CAPITAL LETTER B)
+	- 0x00AD (SOFT HYPHEN)
 
-	- 0x0043 (LATIN CAPITAL LETTER C)
+	- 0x00C2 (LATIN CAPITAL LETTER A WITH CIRCUMFLEX)
 
-	- 0x0044 (LATIN CAPITAL LETTER D)
+	- 0x02BB (MODIFIER LETTER TURNED COMMA)
 
-	- 0x0045 (LATIN CAPITAL LETTER E)
+	- 0x2002 (EN SPACE)
 
-	- 0x0046 (LATIN CAPITAL LETTER F)
+	- 0x2009 (THIN SPACE)
 
-	- 0x0047 (LATIN CAPITAL LETTER G)
+	- 0x200B (ZERO WIDTH SPACE)
 
-	- 0x0048 (LATIN CAPITAL LETTER H)
+	- 0x2032 (PRIME)
 
-	- 0x0049 (LATIN CAPITAL LETTER I)
+	- 0x2033 (DOUBLE PRIME)
 
-	- 0x004A (LATIN CAPITAL LETTER J)
+	- 0x2122 (TRADE MARK SIGN)
  
-	- And 165 more.
+	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file.</summary>
+<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
 
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
 <pre>--- Rationale ---
-A known licensing description must be provided in the NameID 14 (LICENSE
-DESCRIPTION) entries of the name table.
-The source of truth for this check (to determine which license is in use) is a
-file placed side-by-side to your font project including the licensing terms.
-Depending on the chosen license, one of the following string snippets is
-expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
-table:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-When in doubt, please choose OFL for new font projects.</pre>
+A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
+yMax, abs(yMin) values. If they are less than these values, clipping can occur
+on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
+If the font includes tall/deep writing systems such as Arabic or Devanagari, the
+winAscent and winDescent can be greater than the yMax and abs(yMin) to
+accommodate vowel marks.
+When the win Metrics are significantly greater than the upm, the linespacing can
+appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
+(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
+means the font developer can control the linespacing with the typo values,
+whilst avoiding clipping by setting the win values to values greater than the
+yMax and abs(yMin).</pre>
 
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 415, but got 307 instead. [code: descent]
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts</summary>
+<summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width?</summary>
 
-* [com.google.fonts/check/font_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright)
+* [com.google.fonts/check/whitespace_widths](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths)
 
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright (c) 2019, Nathan Gross" [code: bad-notice-format]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check font can render its own name.</summary>
-
-* [com.google.fonts/check/render_own_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name)
-<pre>--- Rationale ---
-A base expectation is that a font family&#x27;s regular/default (400 roman) style can
-render its &#x27;menu name&#x27; (nameID 1) in itself.</pre>
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Solitreo Project Font [code: render-own-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
-
-* [com.google.fonts/check/os2_metrics_match_hhea](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea)
-<pre>--- Rationale ---
-OS/2 and hhea vertical metric values should match. This will produce the same
-linespacing on Mac, GNU+Linux and Windows.
-- Mac OS X uses the hhea values.
-- Windows uses OS/2 or Win, depending on the OS or fsSelection bit value.
-When OS/2 and hhea vertical metrics match, the same linespacing results on
-macOS, GNU+Linux and Windows. Unfortunately as of 2018, Google Fonts has
-released many fonts with vertical metrics that don&#x27;t match in this way. When we
-fix this issue in these existing families, we will create a visible change in
-line/paragraph layout for either Windows or macOS users, which will upset some
-of them.
-But we have a duty to fix broken stuff, and inconsistent paragraph layout is
-unacceptably broken when it is possible to avoid it.
-If users complain and prefer the old broken version, they have the freedom to
-take care of their own situation.</pre>
-
-* 🔥 **FAIL** OS/2 sTypoAscender (629) and hhea ascent (677) must be equal. [code: ascender]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters?</summary>
-
-* [com.google.fonts/check/whitespace_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs)
-
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 211 font units wide, non-breaking space named (uni00A0) is 245 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 
 </details>
 <details>
@@ -151,112 +160,8 @@ Each new FontBakery release includes a cached copy of that list of vendor IDs.
 If you registered recently, you&#x27;re safe to ignore warnings emitted by this
 check, since your ID will soon be included in one of our upcoming releases.</pre>
 
-* ⚠ **WARN** OS/2 VendorID is 'PfEd', a font editor default. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: bad]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
-<pre>--- Rationale ---
-All ligatures in a font must have corresponding caret (text cursor) positions
-defined in the GDEF table, otherwhise, users may experience issues with caret
-rendering.
-If using GlyphsApp or UFOs, ligature carets can be defined as anchors with names
-starting with &#x27;caret_&#x27;. These can be compiled with fontmake as of version
-v2.4.0.</pre>
-
-* ⚠ **WARN** This font lacks caret positioning values for these ligature glyphs:
-	- greater_greater
-	- less_less
-	- qudblleft_qudblleft_qudblleft
-	- qudblrit_qudblrit_qudblrit
-	- quotedbl_qudblrt_qudblrt
-	- quotedbl_quotedbl
-	- quotedbl_quotedbl_quotedbl
-	- quotedbl_quotedblright
-	- quotedblbase
-	- quotedblleft_quotedblleft
-	- quotedblright_quotedblright
-
-   [code: incomplete-caret-pos-data]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences?</summary>
-
-* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
-<pre>--- Rationale ---
-Fonts with ligatures should have kerning on the corresponding non-ligated
-sequences for text where ligatures aren&#x27;t used (eg
-https://github.com/impallari/Raleway/issues/14).</pre>
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-	- quotedbl + quotedbl
-	- quotedbl + quotedblright
-	- quotedblright + quotedblright
-	- quotedblright + quotedbl
-	- less + less
-	- greater + greater
-	- uni05D1 + quoteright
-	- quoteright + quotesingle
-	- quotesingle + uni05F3
-	- uni05D2 + quoteright
-	- quoteright + uni05D5
-	- uni05D5 + quoteright
-	- quoteright + uni05D9
-	- uni05D9 + quotesingle
-	- quotesingle + uni05D5
-	- uni05D5 + quotesingle
-	- quotesingle + uni05D9
-	- uni05D9 + uni05F3
-	- uni05F3 + uni05D5
-	- uni05D5 + uni05F3
-	- uni05F3 + uni05D9
-	- uni05D9 + quoteright
-	- uni05D5 + uni05D9
-	- uni05D3 + quoteright
-	- uni05D9 + uni05D9
-	- uni05D9 + uni05D5
-	- uni05D4 + quoteright
-	- uni05D6 + quoteright
-	- uni05DF + quoteright
-	- uni05E1 + quoteright
-	- uni05E4 + quoteright
-	- uni05E8 + uni05D1
-	- quoteright + uni05D1
-	- uni05D1 + quotesingle
-	- quotesingle + uni05D1
-	- uni05D1 + uni05F3
-	- uni05E9 + quoteright
-	- quotedblleft + quotedblleft
-	- uni05D3.alt + quoteright
-	- uni05D2.alt + quoteright
-	- comma + comma
-
-   [code: lacks-kern-info]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary>
-
-* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
-<pre>--- Rationale ---
-According to a GlyphsApp tutorial [1], in order to make sure all versions of
-Windows recognize it as a valid font file, we must make sure that the
-concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
-(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
-characters.
-After discussing the problem in more detail at `FontBakery issue #2179 [2] we
-decided that allowing up to 27 chars would still be on the safe side, though.
-[1] https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
-[2] https://github.com/googlefonts/fontbakery/issues/2179</pre>
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Solitreo Project Font' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+ [code: unknown]
 
 </details>
 <details>
@@ -310,57 +215,28 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- nameme.300
+	- two.dnom
+	- brevecombcy.case
+	- brevecombcy
+	- uni0326.case
+	- uni0306.case
+	- uni0304.case
+	- four.dnom
+	- five.numr
+	- six.numr
+	- uni0328.case 
+	- And 21 more.
+
+Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+<summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</summary>
 
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
+* [com.google.fonts/check/gpos_kerning_info](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info)
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: percent	Contours detected: 4	Expected: 5
-	- Glyph name: at	Contours detected: 1	Expected: 2
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-	- Glyph name: at	Contours detected: 1	Expected: 2
-	- Glyph name: percent	Contours detected: 4	Expected: 5 
-	- And Glyph name: uni00AD	Contours detected: 1	Expected: 0
- [code: contour-count]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps.</summary>
-
-* [com.google.fonts/check/linegaps](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps)
-
-* ⚠ **WARN** hhea lineGap is not equal to 0. [code: hhea]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class.</summary>
-
-* [com.google.fonts/check/gdef_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars)
-<pre>--- Rationale ---
-Mark characters should be in the GDEF mark glyph class.</pre>
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 uni05BF (U+05BF) and uniFB1E (U+FB1E) [code: mark-chars]
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 
 </details>
 <details>
@@ -379,16 +255,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* percent (U+0025): X=89.0,Y=1.0 (should be at baseline 0?)
-	* percent (U+0025): X=87.0,Y=1.0 (should be at baseline 0?)
-	* percent (U+0025): X=295.0,Y=1.0 (should be at baseline 0?)
-	* ampersand (U+0026): X=445.0,Y=630.0 (should be at ascender 629?)
-	* ampersand (U+0026): X=122.0,Y=-2.0 (should be at baseline 0?)
-	* ampersand (U+0026): X=445.0,Y=630.0 (should be at ascender 629?)
-	* parenleft (U+0028): X=42.5,Y=1.0 (should be at baseline 0?)
-	* slash (U+002F): X=290.0,Y=627.0 (should be at ascender 629?)
-	* slash (U+002F): X=297.0,Y=628.0 (should be at ascender 629?)
-	* slash (U+002F): X=290.0,Y=627.0 (should be at ascender 629?) and 38 more.
+	* parenleft (U+0028): X=308.0,Y=701.5 (should be at cap-height 700?)
+	* parenright (U+0029): X=31.0,Y=701.5 (should be at cap-height 700?)
+	* one (U+0031): X=265.0,Y=699.0 (should be at cap-height 700?)
+	* bracketright (U+005D): X=33.5,Y=701.5 (should be at cap-height 700?)
+	* asciicircum (U+005E): X=168.0,Y=701.0 (should be at cap-height 700?)
+	* asciicircum (U+005E): X=264.0,Y=701.0 (should be at cap-height 700?)
+	* grave (U+0060): X=72.0,Y=701.0 (should be at cap-height 700?)
+	* section (U+00A7): X=71.0,Y=-2.0 (should be at baseline 0?)
+	* acute (U+00B4): X=265.0,Y=701.0 (should be at cap-height 700?)
+	* agrave (U+00E0): X=126.0,Y=701.0 (should be at cap-height 700?) and 63 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -400,8 +276,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 7 | 10 | 122 | 7 | 76 | 0 |
-| 0% | 3% | 5% | 55% | 3% | 34% | 0% |
+| 6 | 3 | 5 | 102 | 7 | 99 | 0 |
+| 3% | 1% | 2% | 46% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
