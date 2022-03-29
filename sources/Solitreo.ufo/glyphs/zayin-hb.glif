@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zayin-hb" format="2">
+	<advance width="200"/>
+	<unicode hex="05D6"/>
+	<anchor x="-22" y="0" name="bottom"/>
+	<anchor x="-89" y="0" name="bottomleft"/>
+	<anchor x="-37" y="165" name="center"/>
+	<anchor x="207" y="336" name="top"/>
+	<anchor x="61" y="336" name="topleft"/>
+	<outline>
+		<contour>
+			<point x="-28" y="-1" type="curve" smooth="yes"/>
+			<point x="-39" y="-1"/>
+			<point x="-51" y="6"/>
+			<point x="-51" y="20" type="curve" smooth="yes"/>
+			<point x="-51" y="31"/>
+			<point x="51" y="305"/>
+			<point x="162" y="305" type="curve" smooth="yes"/>
+			<point x="184" y="305"/>
+			<point x="199" y="286"/>
+			<point x="199" y="265" type="curve" smooth="yes"/>
+			<point x="199" y="224"/>
+			<point x="169" y="185"/>
+			<point x="142" y="185" type="curve" smooth="yes"/>
+			<point x="126" y="185"/>
+			<point x="105" y="185"/>
+			<point x="95" y="169" type="curve" smooth="yes"/>
+			<point x="19" y="55"/>
+			<point x="0" y="-1"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>com.typemytype.robofont.guides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<integer>0</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>0</integer>
+						<key>y</key>
+						<integer>983</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>0</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>0</integer>
+						<key>y</key>
+						<integer>983</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>0</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>0</integer>
+						<key>y</key>
+						<integer>571</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<integer>1</integer>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>22</integer>
+						<integer>0</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Tag</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

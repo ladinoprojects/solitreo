@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f" format="2">
+	<advance width="384.75"/>
+	<unicode hex="0066"/>
+	<anchor x="192" y="0" name="bottom"/>
+	<anchor x="192" y="718" name="top"/>
+	<outline>
+		<contour>
+			<point x="149" y="0" type="curve" smooth="yes"/>
+			<point x="196" y="0" type="line" smooth="yes"/>
+			<point x="209" y="0"/>
+			<point x="219" y="10"/>
+			<point x="219" y="23" type="curve" smooth="yes"/>
+			<point x="219" y="440" type="line"/>
+			<point x="348" y="440" type="line" smooth="yes"/>
+			<point x="361" y="440"/>
+			<point x="371" y="450"/>
+			<point x="371" y="463" type="curve" smooth="yes"/>
+			<point x="371" y="497" type="line" smooth="yes"/>
+			<point x="371" y="510"/>
+			<point x="361" y="520"/>
+			<point x="348" y="520" type="curve" smooth="yes"/>
+			<point x="219" y="520" type="line"/>
+			<point x="219" y="565" type="line" smooth="yes"/>
+			<point x="219" y="626"/>
+			<point x="237" y="660"/>
+			<point x="300" y="660" type="curve" smooth="yes"/>
+			<point x="358" y="660" type="line" smooth="yes"/>
+			<point x="371" y="660"/>
+			<point x="381" y="670"/>
+			<point x="381" y="683" type="curve" smooth="yes"/>
+			<point x="381" y="717" type="line" smooth="yes"/>
+			<point x="381" y="730"/>
+			<point x="371" y="740"/>
+			<point x="358" y="740" type="curve" smooth="yes"/>
+			<point x="298" y="740" type="line" smooth="yes"/>
+			<point x="172" y="740"/>
+			<point x="126" y="673"/>
+			<point x="126" y="570" type="curve" smooth="yes"/>
+			<point x="126" y="520" type="line"/>
+			<point x="41" y="520" type="line" smooth="yes"/>
+			<point x="28" y="520"/>
+			<point x="18" y="510"/>
+			<point x="18" y="497" type="curve" smooth="yes"/>
+			<point x="18" y="463" type="line" smooth="yes"/>
+			<point x="18" y="450"/>
+			<point x="28" y="440"/>
+			<point x="41" y="440" type="curve" smooth="yes"/>
+			<point x="126" y="440" type="line"/>
+			<point x="126" y="23" type="line" smooth="yes"/>
+			<point x="126" y="10"/>
+			<point x="136" y="0"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>com.typemytype.robofont.guides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<integer>0</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>0</integer>
+						<key>y</key>
+						<integer>345</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>0</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>0</integer>
+						<key>y</key>
+						<integer>9</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>0</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>0</integer>
+						<key>y</key>
+						<integer>740</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>90</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>297</integer>
+						<key>y</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>90</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>371</integer>
+						<key>y</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

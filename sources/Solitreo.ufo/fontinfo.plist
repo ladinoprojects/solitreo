@@ -1,91 +1,95 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>ascender</key>
-    <integer>629</integer>
-    <key>copyright</key>
-    <string>Copyright (c) 2019, Nathan Gross</string>
-    <key>descender</key>
-    <integer>-371</integer>
-    <key>familyName</key>
-    <string>Solitreo Project Font</string>
-    <key>guidelines</key>
-    <array>
-      <dict>
-        <key>y</key>
-        <real>-144.0</real>
-      </dict>
-      <dict>
-        <key>y</key>
-        <real>492.0</real>
-      </dict>
-      <dict>
-        <key>y</key>
-        <real>219.0</real>
-      </dict>
-      <dict>
-        <key>y</key>
-        <real>251.0</real>
-      </dict>
-    </array>
-    <key>italicAngle</key>
-    <real>0.0</real>
-    <key>note</key>
-    <string>This font was created as part of the Documenting Judeo-Spanish project. (documentingjudeospanish.com)
-
-2019-7-4: Created with FontForge (http://fontforge.org)</string>
-    <key>openTypeHeadCreated</key>
-    <string>2019/07/04 20:41:52</string>
-    <key>openTypeHheaAscender</key>
-    <integer>677</integer>
-    <key>openTypeHheaDescender</key>
-    <integer>-373</integer>
-    <key>openTypeHheaLineGap</key>
-    <integer>90</integer>
-    <key>openTypeOS2Selection</key>
-    <array>
-      <integer>7</integer>
-    </array>
-    <key>openTypeOS2Type</key>
-    <array/>
-    <key>openTypeOS2TypoAscender</key>
-    <integer>629</integer>
-    <key>openTypeOS2TypoDescender</key>
-    <integer>-371</integer>
-    <key>openTypeOS2TypoLineGap</key>
-    <integer>90</integer>
-    <key>openTypeOS2VendorID</key>
-    <string>PfEd</string>
-    <key>openTypeOS2WeightClass</key>
-    <integer>400</integer>
-    <key>openTypeOS2WidthClass</key>
-    <integer>5</integer>
-    <key>openTypeOS2WinAscent</key>
-    <integer>677</integer>
-    <key>openTypeOS2WinDescent</key>
-    <integer>373</integer>
-    <key>openTypeVheaVertTypoLineGap</key>
-    <integer>0</integer>
-    <key>postscriptFontName</key>
-    <string>SolitreoProjectFont</string>
-    <key>postscriptFullName</key>
-    <string>Solitreo Project Font</string>
-    <key>postscriptSlantAngle</key>
-    <real>0.0</real>
-    <key>postscriptUnderlinePosition</key>
-    <real>-74.5</real>
-    <key>postscriptUnderlineThickness</key>
-    <real>49.0</real>
-    <key>postscriptWeightName</key>
-    <string>Regular</string>
-    <key>styleName</key>
-    <string>Regular</string>
-    <key>unitsPerEm</key>
-    <integer>1000</integer>
-    <key>versionMajor</key>
-    <integer>1</integer>
-    <key>versionMinor</key>
-    <integer>0</integer>
-  </dict>
+<dict>
+	<key>ascender</key>
+	<integer>750</integer>
+	<key>capHeight</key>
+	<integer>700</integer>
+	<key>copyright</key>
+	<string>Copyright 2015 The Solitreo Project Authors (https://github.com/ladinoprojects/solitreo)</string>
+	<key>descender</key>
+	<integer>-225</integer>
+	<key>familyName</key>
+	<string>Solitreo</string>
+	<key>openTypeHeadCreated</key>
+	<string>2017/03/21 06:32:22</string>
+	<key>openTypeHheaAscender</key>
+	<integer>935</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-250</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
+	<key>openTypeNameDesigner</key>
+	<string>Nathan Gross</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>https://documentingjudeospanish.com/</string>
+	<key>openTypeNameLicense</key>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>https://scripts.sil.org/OFL</string>
+	<key>openTypeNameManufacturer</key>
+	<string>Eli Heuer</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>https://www.elih.blog</string>
+	<key>openTypeOS2Panose</key>
+	<array>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+	</array>
+	<key>openTypeOS2Type</key>
+	<array/>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>935</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-250</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>0</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>945</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>415</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<real>-10.0</real>
+		<real>0.0</real>
+		<real>520.0</real>
+		<real>530.0</real>
+		<real>700.0</real>
+		<real>710.0</real>
+	</array>
+	<key>postscriptFontName</key>
+	<string>Solitreo-Regular</string>
+	<key>postscriptOtherBlues</key>
+	<array/>
+	<key>postscriptStemSnapH</key>
+	<array>
+		<real>79.0</real>
+		<real>90.0</real>
+	</array>
+	<key>postscriptStemSnapV</key>
+	<array>
+		<real>96.0</real>
+	</array>
+	<key>postscriptUnderlinePosition</key>
+	<integer>-54</integer>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>0</integer>
+	<key>xHeight</key>
+	<integer>520</integer>
+</dict>
 </plist>

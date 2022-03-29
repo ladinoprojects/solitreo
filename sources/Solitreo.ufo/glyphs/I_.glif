@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I" format="2">
+	<advance width="272.9375"/>
+	<unicode hex="0049"/>
+	<anchor x="137" y="0" name="bottom"/>
+	<anchor x="184" y="69" name="ogonek"/>
+	<anchor x="137" y="700" name="top"/>
+	<anchor x="20" y="700" name="topleft"/>
+	<outline>
+		<contour>
+			<point x="110" y="0" type="curve" smooth="yes"/>
+			<point x="163" y="0" type="line" smooth="yes"/>
+			<point x="177" y="0"/>
+			<point x="186" y="10"/>
+			<point x="186" y="23" type="curve" smooth="yes"/>
+			<point x="186" y="677" type="line" smooth="yes"/>
+			<point x="186" y="690"/>
+			<point x="177" y="700"/>
+			<point x="163" y="700" type="curve" smooth="yes"/>
+			<point x="110" y="700" type="line" smooth="yes"/>
+			<point x="96" y="700"/>
+			<point x="87" y="690"/>
+			<point x="87" y="677" type="curve" smooth="yes"/>
+			<point x="87" y="23" type="line" smooth="yes"/>
+			<point x="87" y="10"/>
+			<point x="96" y="0"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>com.typemytype.robofont.guides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<integer>90</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>85</integer>
+						<key>y</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>90</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>148</integer>
+						<key>y</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="finalkaf-hb" format="2">
+	<advance width="304"/>
+	<unicode hex="05DA"/>
+	<anchor x="321" y="-29" name="bottom"/>
+	<anchor x="0" y="0" name="bottomleft"/>
+	<anchor x="43" y="84" name="center"/>
+	<anchor x="303" y="310" name="top"/>
+	<anchor x="70" y="310" name="topleft"/>
+	<outline>
+		<contour>
+			<point x="4" y="-413" type="curve" smooth="yes"/>
+			<point x="-8" y="-413"/>
+			<point x="-16" y="-406"/>
+			<point x="-16" y="-396" type="curve" smooth="yes"/>
+			<point x="-16" y="-390"/>
+			<point x="-12" y="-383"/>
+			<point x="-5" y="-375" type="curve" smooth="yes"/>
+			<point x="84" y="-286"/>
+			<point x="59" y="-112"/>
+			<point x="177" y="159" type="curve" smooth="yes"/>
+			<point x="183" y="173"/>
+			<point x="185" y="184"/>
+			<point x="185" y="193" type="curve" smooth="yes"/>
+			<point x="185" y="222"/>
+			<point x="157" y="231"/>
+			<point x="125" y="231" type="curve" smooth="yes"/>
+			<point x="71" y="231"/>
+			<point x="60" y="217"/>
+			<point x="12" y="217" type="curve" smooth="yes"/>
+			<point x="-36" y="217"/>
+			<point x="-53" y="236"/>
+			<point x="-53" y="256" type="curve" smooth="yes"/>
+			<point x="-53" y="282"/>
+			<point x="-27" y="298"/>
+			<point x="-5" y="298" type="curve" smooth="yes"/>
+			<point x="19" y="298"/>
+			<point x="45" y="273"/>
+			<point x="69" y="273" type="curve" smooth="yes"/>
+			<point x="100" y="273"/>
+			<point x="147" y="283"/>
+			<point x="187" y="283" type="curve" smooth="yes"/>
+			<point x="232" y="283"/>
+			<point x="269" y="271"/>
+			<point x="269" y="223" type="curve" smooth="yes"/>
+			<point x="269" y="206"/>
+			<point x="264" y="184"/>
+			<point x="253" y="156" type="curve" smooth="yes"/>
+			<point x="137" y="-136"/>
+			<point x="185" y="-261"/>
+			<point x="29" y="-402" type="curve" smooth="yes"/>
+			<point x="20" y="-410"/>
+			<point x="11" y="-413"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>het-hb</string>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-03-25 14:17:49 +0000</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>com.typemytype.robofont.guides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<integer>0</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>0</integer>
+						<key>y</key>
+						<integer>61</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<integer>1</integer>
+					<key>options</key>
+					<integer>0</integer>
+					<key>place</key>
+					<array>
+						<integer>549</integer>
+						<integer>0</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Tag</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

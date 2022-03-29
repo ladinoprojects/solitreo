@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yod-hb" format="2">
+	<advance width="150"/>
+	<unicode hex="05D9"/>
+	<anchor x="36" y="0" name="bottom"/>
+	<anchor x="-60" y="0" name="bottomleft"/>
+	<anchor x="-37" y="138" name="center"/>
+	<anchor x="117" y="180" name="top"/>
+	<anchor x="20" y="180" name="topleft"/>
+	<outline>
+		<contour>
+			<point x="22" y="85" type="curve" smooth="yes"/>
+			<point x="2" y="85"/>
+			<point x="0" y="90"/>
+			<point x="0" y="102" type="curve" smooth="yes"/>
+			<point x="0" y="117"/>
+			<point x="6" y="127"/>
+			<point x="27" y="201" type="curve" smooth="yes"/>
+			<point x="34" y="226"/>
+			<point x="58" y="227"/>
+			<point x="80" y="227" type="curve" smooth="yes"/>
+			<point x="102" y="227"/>
+			<point x="117" y="227"/>
+			<point x="117" y="204" type="curve" smooth="yes"/>
+			<point x="117" y="159"/>
+			<point x="59" y="85"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-03-25 14:21:56 +0000</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>com.typemytype.robofont.guides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<integer>0</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>0</integer>
+						<key>y</key>
+						<integer>240</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<integer>1</integer>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>4</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Tag</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

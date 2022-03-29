@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slashlongcomb" format="2">
+	<advance width="481.5"/>
+	<unicode hex="0338"/>
+	<anchor x="241" y="351" name="_center"/>
+	<outline>
+		<contour>
+			<point x="4" y="-64" type="curve" smooth="yes"/>
+			<point x="25" y="-64" type="line" smooth="yes"/>
+			<point x="39" y="-64"/>
+			<point x="45" y="-54"/>
+			<point x="48" y="-49" type="curve" smooth="yes"/>
+			<point x="494" y="733" type="line" smooth="yes"/>
+			<point x="505" y="753"/>
+			<point x="494" y="766"/>
+			<point x="479" y="766" type="curve" smooth="yes"/>
+			<point x="455" y="766" type="line" smooth="yes"/>
+			<point x="442" y="766"/>
+			<point x="436" y="756"/>
+			<point x="433" y="751" type="curve" smooth="yes"/>
+			<point x="-13" y="-31" type="line" smooth="yes"/>
+			<point x="-22" y="-46"/>
+			<point x="-13" y="-64"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.06,0.6,0.98,1</string>
+		</dict>
+	</lib>
+</glyph>
