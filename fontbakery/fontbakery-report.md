@@ -3,7 +3,7 @@
 Fontbakery version: 0.8.6
 
 <details>
-<summary><b>[12] Solitreo-Regular.ttf</b></summary>
+<summary><b>[11] Solitreo-Regular.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary>
 
@@ -151,17 +151,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zero.dnom
-	- five.dnom
-	- one.dnom
-	- uni030C.case
 	- seven.dnom
-	- five.numr
-	- zero.numr
-	- two.numr
-	- six.dnom
-	- uni0326.case 
-	- And 21 more.
+	- eight.numr
+	- eight.dnom
+	- qudblrit_qudblrit_qudblrit
+	- greater_greater
+	- uni030C.alt
+	- nameme.300
+	- uni0306.case
+	- brevecombcy.case
+	- three.dnom 
+	- And 26 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -189,6 +189,7 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: percent	Contours detected: 4	Expected: 5
+	- Glyph name: at	Contours detected: 1	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 	- Glyph name: fbfix	Contours detected: 0	Expected: 1
 	- Glyph name: prime	Contours detected: 0	Expected: 1
@@ -196,20 +197,11 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: arrowup	Contours detected: 0	Expected: 1
 	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
 	- Glyph name: uniFFFD	Contours detected: 0	Expected: 3 or 5
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1 
-	- And 3 more.
+	- Glyph name: arrowdown	Contours detected: 0	Expected: 1 
+	- And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</summary>
-
-* [com.google.fonts/check/gpos_kerning_info](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info)
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 
 </details>
 <details>
@@ -235,9 +227,9 @@ than 100 reported misalignments.</pre>
 	* ampersand (U+0026): X=495.0,Y=701.0 (should be at cap-height 700?)
 	* ampersand (U+0026): X=136.0,Y=-2.0 (should be at baseline 0?)
 	* parenleft (U+0028): X=47.5,Y=0.5 (should be at baseline 0?)
-	* bracketright (U+005D): X=33.5,Y=701.5 (should be at cap-height 700?)
-	* asciicircum (U+005E): X=168.0,Y=701.0 (should be at cap-height 700?)
-	* asciicircum (U+005E): X=264.0,Y=701.0 (should be at cap-height 700?) and 67 more.
+	* slash (U+002F): X=323.0,Y=698.0 (should be at cap-height 700?)
+	* slash (U+002F): X=331.0,Y=699.0 (should be at cap-height 700?)
+	* two (U+0032): X=72.0,Y=1.0 (should be at baseline 0?) and 83 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -249,8 +241,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 6 | 0 | 6 | 102 | 7 | 101 | 0 |
-| 3% | 0% | 3% | 46% | 3% | 45% | 0% |
+| 6 | 0 | 5 | 102 | 7 | 102 | 0 |
+| 3% | 0% | 2% | 46% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

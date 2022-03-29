@@ -74,18 +74,18 @@
             <tr>
                 <td>6</td>
                 <td>0</td>
-                <td>6</td>
+                <td>5</td>
                 <td>102</td>
                 <td>7</td>
-                <td>101</td>
+                <td>102</td>
             </tr>
             <tr>
                 <td>4%</td>
                 <td>0%</td>
-                <td>4%</td>
+                <td>3%</td>
                 <td>60%</td>
                 <td>4%</td>
-                <td>59%</td>
+                <td>60%</td>
             </tr>
             </table>
             
@@ -128,17 +128,17 @@
 <h3>Check font contains no unreachable glyphs</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 <details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
-- zero.dnom
-- five.dnom
-- one.dnom
-- uni030C.case
 - seven.dnom
-- five.numr
-- zero.numr
-- two.numr
-- six.dnom
-- uni0326.case
-- And 21 more.</p>
+- eight.numr
+- eight.dnom
+- qudblrit_qudblrit_qudblrit
+- greater_greater
+- uni030C.alt
+- nameme.300
+- uni0306.case
+- brevecombcy.case
+- three.dnom
+- And 26 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
@@ -148,6 +148,7 @@
 </span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
 <pre><code>- Glyph name: percent	Contours detected: 4	Expected: 5
+- Glyph name: at	Contours detected: 1	Expected: 2
 - Glyph name: uni00AD	Contours detected: 1	Expected: 0
 - Glyph name: fbfix	Contours detected: 0	Expected: 1
 - Glyph name: prime	Contours detected: 0	Expected: 1
@@ -155,17 +156,11 @@
 - Glyph name: arrowup	Contours detected: 0	Expected: 1
 - Glyph name: arrowdown	Contours detected: 0	Expected: 1
 - Glyph name: uniFFFD	Contours detected: 0	Expected: 3 or 5
-- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-- Glyph name: arrowup	Contours detected: 0	Expected: 1 
-- And 3 more.
+- Glyph name: arrowdown	Contours detected: 0	Expected: 1 
+- And 5 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
-</span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️</h2>
-<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
-<details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
 </span></li></ul></div></details>
 <h2>&lt;Section: Outline Correctness Checks&gt; ⚠️</h2>
 <h3>Are there any misaligned on-curve points?</h3>
@@ -178,9 +173,9 @@
 * ampersand (U+0026): X=495.0,Y=701.0 (should be at cap-height 700?)
 * ampersand (U+0026): X=136.0,Y=-2.0 (should be at baseline 0?)
 * parenleft (U+0028): X=47.5,Y=0.5 (should be at baseline 0?)
-* bracketright (U+005D): X=33.5,Y=701.5 (should be at cap-height 700?)
-* asciicircum (U+005E): X=168.0,Y=701.0 (should be at cap-height 700?)
-* asciicircum (U+005E): X=264.0,Y=701.0 (should be at cap-height 700?) and 67 more.</p>
+* slash (U+002F): X=323.0,Y=698.0 (should be at cap-height 700?)
+* slash (U+002F): X=331.0,Y=699.0 (should be at cap-height 700?)
+* two (U+0032): X=72.0,Y=1.0 (should be at baseline 0?) and 83 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
 </span></li></ul></div></details>
                     </body>
