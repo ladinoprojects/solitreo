@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslash" format="2">
+	<advance width="677"/>
+	<unicode hex="00D8"/>
+	<anchor x="339" y="0" name="bottom"/>
+	<anchor x="339" y="700" name="top"/>
+	<outline>
+		<component base="O"/>
+		<component base="slashlongcomb" xOffset="98" yOffset="-1"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>com.typemytype.robofont.guides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<integer>0</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>0</integer>
+						<key>y</key>
+						<integer>145</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>90</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>351</integer>
+						<key>y</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>90</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>679</integer>
+						<key>y</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>90</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>85</integer>
+						<key>y</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>90</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>20</integer>
+						<key>y</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

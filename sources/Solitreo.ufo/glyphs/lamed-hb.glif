@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamed-hb" format="2">
+	<advance width="334"/>
+	<unicode hex="05DC"/>
+	<anchor x="164" y="0" name="bottom"/>
+	<anchor x="3" y="0" name="bottomleft"/>
+	<anchor x="184" y="377" name="center"/>
+	<anchor x="374" y="590" name="top"/>
+	<anchor x="158" y="590" name="topleft"/>
+	<outline>
+		<contour>
+			<point x="297" y="638"/>
+			<point x="296" y="649"/>
+			<point x="279" y="649" type="curve" smooth="yes"/>
+			<point x="215" y="649"/>
+			<point x="51" y="317"/>
+			<point x="51" y="118" type="curve" smooth="yes"/>
+			<point x="51" y="82"/>
+			<point x="70" y="48"/>
+			<point x="99" y="48" type="curve" smooth="yes"/>
+			<point x="161" y="48"/>
+			<point x="184" y="97"/>
+			<point x="207" y="148" type="curve" smooth="yes"/>
+			<point x="216" y="170"/>
+			<point x="244" y="170"/>
+			<point x="260" y="170" type="curve" smooth="yes"/>
+			<point x="283" y="170"/>
+			<point x="292" y="166"/>
+			<point x="292" y="148" type="curve" smooth="yes"/>
+			<point x="292" y="83"/>
+			<point x="209" y="0"/>
+			<point x="98" y="0" type="curve" smooth="yes"/>
+			<point x="10" y="0"/>
+			<point x="0" y="104"/>
+			<point x="0" y="138" type="curve" smooth="yes"/>
+			<point x="0" y="319"/>
+			<point x="143" y="700"/>
+			<point x="310" y="700" type="curve" smooth="yes"/>
+			<point x="349" y="700"/>
+			<point x="384" y="690"/>
+			<point x="384" y="619" type="curve" smooth="yes"/>
+			<point x="384" y="462"/>
+			<point x="178" y="120"/>
+			<point x="111" y="120" type="curve" smooth="yes"/>
+			<point x="99" y="120"/>
+			<point x="97" y="124"/>
+			<point x="97" y="136" type="curve" smooth="yes"/>
+			<point x="97" y="153"/>
+			<point x="297" y="467"/>
+			<point x="297" y="625" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>kaf-hb</string>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-03-25 14:16:12 +0000</string>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>com.typemytype.robofont.guides</key>
+				<array>
+					<dict>
+						<key>angle</key>
+						<integer>0</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>0</integer>
+						<key>y</key>
+						<integer>710</integer>
+					</dict>
+					<dict>
+						<key>angle</key>
+						<integer>90</integer>
+						<key>isGlobal</key>
+						<integer>0</integer>
+						<key>magnetic</key>
+						<integer>5</integer>
+						<key>x</key>
+						<integer>464</integer>
+						<key>y</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

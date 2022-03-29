@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quoteleft" format="2">
+	<advance width="235"/>
+	<unicode hex="2018"/>
+	<outline>
+		<contour>
+			<point x="54" y="467" type="curve" smooth="yes"/>
+			<point x="39" y="467"/>
+			<point x="29" y="475"/>
+			<point x="29" y="486" type="curve" smooth="yes"/>
+			<point x="29" y="500"/>
+			<point x="71" y="543"/>
+			<point x="127" y="628" type="curve" smooth="yes"/>
+			<point x="131" y="634"/>
+			<point x="139" y="640"/>
+			<point x="152" y="640" type="curve" smooth="yes"/>
+			<point x="171" y="640"/>
+			<point x="202" y="627"/>
+			<point x="202" y="607" type="curve" smooth="yes"/>
+			<point x="202" y="582"/>
+			<point x="96" y="467"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-03-29 15:15:27 +0000</string>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

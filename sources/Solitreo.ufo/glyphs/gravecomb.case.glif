@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb.case" format="2">
+	<advance width="409.9375"/>
+	<anchor x="259" y="700" name="_top"/>
+	<anchor x="205" y="888" name="top"/>
+	<outline>
+		<contour>
+			<point x="254" y="750" type="curve" smooth="yes"/>
+			<point x="294" y="750" type="line" smooth="yes"/>
+			<point x="304" y="750"/>
+			<point x="310" y="756"/>
+			<point x="310" y="766" type="curve" smooth="yes"/>
+			<point x="310" y="771"/>
+			<point x="308" y="776"/>
+			<point x="305" y="779" type="curve" smooth="yes"/>
+			<point x="230" y="869" type="line" smooth="yes"/>
+			<point x="218" y="883"/>
+			<point x="212" y="888"/>
+			<point x="193" y="888" type="curve" smooth="yes"/>
+			<point x="119" y="888" type="line" smooth="yes"/>
+			<point x="107" y="888"/>
+			<point x="100" y="880"/>
+			<point x="100" y="868" type="curve" smooth="yes"/>
+			<point x="100" y="863"/>
+			<point x="102" y="859"/>
+			<point x="105" y="856" type="curve" smooth="yes"/>
+			<point x="221" y="761" type="line" smooth="yes"/>
+			<point x="232" y="752"/>
+			<point x="240" y="750"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.06,0.6,0.98,1</string>
+		</dict>
+	</lib>
+</glyph>
