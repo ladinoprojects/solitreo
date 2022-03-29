@@ -151,15 +151,15 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- seven.dnom
-	- eight.numr
-	- eight.dnom
+	- three.numr
+	- one.dnom
+	- uni0327.case
+	- uni0307.case
 	- qudblrit_qudblrit_qudblrit
-	- greater_greater
-	- uni030C.alt
-	- nameme.300
-	- uni0306.case
-	- brevecombcy.case
+	- four.numr
+	- eight.numr
+	- two.numr
+	- seven.numr
 	- three.dnom 
 	- And 26 more.
 
