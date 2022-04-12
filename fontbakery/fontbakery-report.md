@@ -3,7 +3,7 @@
 Fontbakery version: 0.8.6
 
 <details>
-<summary><b>[11] Solitreo-Regular.ttf</b></summary>
+<summary><b>[12] Solitreo-Regular.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary>
 
@@ -75,6 +75,22 @@ Check CJK family has the same vertical metrics as the same family hosted on
 Google Fonts.</pre>
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
+
+* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
+<pre>--- Rationale ---
+Google Fonts expects that fonts in its collection support at least the minimal
+set of characters defined in the `GF-latin-core` glyph-set.</pre>
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x2032 (PRIME)
+ 
+	- And 0x2033 (DOUBLE PRIME)
+ [code: missing-codepoints]
 
 </details>
 <details>
@@ -151,17 +167,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- three.numr
-	- one.dnom
-	- uni0327.case
-	- uni0307.case
-	- qudblrit_qudblrit_qudblrit
 	- four.numr
-	- eight.numr
 	- two.numr
+	- six.numr
+	- nine.dnom
 	- seven.numr
-	- three.dnom 
-	- And 26 more.
+	- uni0307.case
+	- brevecombcy
+	- two.dnom
+	- qudblrit_qudblrit_qudblrit
+	- brevecombcy.case 
+	- And 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -189,14 +205,14 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: percent	Contours detected: 4	Expected: 5
-	- Glyph name: at	Contours detected: 1	Expected: 2
+	- Glyph name: Q	Contours detected: 3	Expected: 2
+	- Glyph name: q	Contours detected: 1	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 	- Glyph name: fbfix	Contours detected: 0	Expected: 1
-	- Glyph name: prime	Contours detected: 0	Expected: 1
-	- Glyph name: doublePrime	Contours detected: 0	Expected: 2
 	- Glyph name: arrowup	Contours detected: 0	Expected: 1
 	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
 	- Glyph name: uniFFFD	Contours detected: 0	Expected: 3 or 5
+	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: arrowdown	Contours detected: 0	Expected: 1 
 	- And 5 more.
 
@@ -205,33 +221,21 @@ Use -F or --full-lists to disable shortening of long lists.
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
+<summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
 
-* [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
+* [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
 <pre>--- Rationale ---
-This check heuristically looks for on-curve points which are close to, but do
-not sit on, significant boundary coordinates. For example, a point which has a
-Y-coordinate of 1 or -1 might be a misplaced baseline point. As well as the
-baseline, here we also check for points near the x-height (but only for lower
-case Latin letters), cap-height, ascender and descender Y coordinates.
-Not all such misaligned curve points are a mistake, and sometimes the design may
-call for points in locations near the boundaries. As this check is liable to
-generate significant numbers of false positives, it will pass if there are more
-than 100 reported misalignments.</pre>
+This check heuristically detects outline segments which form a particularly
+small angle, indicative of an outline error. This may cause false positives in
+cases such as extreme ink traps, so should be regarded as advisory and backed up
+by manual inspection.</pre>
 
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* percent (U+0025): X=95.0,Y=1.0 (should be at baseline 0?)
-	* percent (U+0025): X=328.0,Y=1.0 (should be at baseline 0?)
-	* percent (U+0025): X=328.0,Y=1.0 (should be at baseline 0?)
-	* ampersand (U+0026): X=136.0,Y=-2.0 (should be at baseline 0?)
-	* ampersand (U+0026): X=495.0,Y=701.0 (should be at cap-height 700?)
-	* ampersand (U+0026): X=136.0,Y=-2.0 (should be at baseline 0?)
-	* parenleft (U+0028): X=47.5,Y=0.5 (should be at baseline 0?)
-	* slash (U+002F): X=323.0,Y=698.0 (should be at cap-height 700?)
-	* slash (U+002F): X=331.0,Y=699.0 (should be at cap-height 700?)
-	* two (U+0032): X=72.0,Y=1.0 (should be at baseline 0?) and 83 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+* ⚠ **WARN** The following glyphs have jaggy segments:
+	* G (U+0047): B<<420.5,88.5>-<437.0,136.0>-<450.0,177.0>>/B<<450.0,177.0>-<401.0,94.0>-<339.5,45.5>> = 12.963539713326167
+	* h (U+0068): B<<165.5,307.5>-<144.0,227.0>-<118.0,149.0>>/B<<118.0,149.0>-<174.0,249.0>-<216.5,313.0>> = 10.813877513624918
+	* m (U+006D): B<<181.0,426.0>-<181.0,339.0>-<115.0,136.0>>/B<<115.0,136.0>-<179.0,264.0>-<227.5,342.0>> = 8.554507773517456
+	* m (U+006D): B<<473.5,312.5>-<471.0,288.0>-<464.0,262.0>>/B<<464.0,262.0>-<582.0,491.0>-<678.0,491.0>> = 12.192831617657696
+	* n (U+006E): B<<156.5,266.5>-<144.0,215.0>-<129.0,169.0>>/B<<129.0,169.0>-<182.0,260.0>-<221.0,320.0>> = 12.15680202118516 and ntilde (U+00F1): B<<156.5,266.5>-<144.0,215.0>-<129.0,169.0>>/B<<129.0,169.0>-<182.0,260.0>-<221.0,320.0>> = 12.15680202118516 [code: found-jaggy-segments]
 
 </details>
 <br>
@@ -241,8 +245,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 6 | 0 | 5 | 102 | 7 | 102 | 0 |
-| 3% | 0% | 2% | 46% | 3% | 46% | 0% |
+| 6 | 1 | 5 | 102 | 7 | 101 | 0 |
+| 3% | 0% | 2% | 46% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

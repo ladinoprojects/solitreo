@@ -73,15 +73,15 @@
             </tr>
             <tr>
                 <td>6</td>
-                <td>0</td>
+                <td>1</td>
                 <td>5</td>
                 <td>102</td>
                 <td>7</td>
-                <td>102</td>
+                <td>101</td>
             </tr>
             <tr>
                 <td>4%</td>
-                <td>0%</td>
+                <td>1%</td>
                 <td>3%</td>
                 <td>60%</td>
                 <td>4%</td>
@@ -90,11 +90,20 @@
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 💥💥💥💥💥💥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h2>&lt;Section: Google Fonts&gt; 💥💥💥💥💥💥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Checking OS/2 achVendID.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vendor_id&gt;</div>
 <details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
 [code: unknown]</p>
+</span></li></ul></div></details>
+<h3>Check `Google Fonts Latin Core` glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x2032 (PRIME)
+
+- And 0x2033 (DOUBLE PRIME)
+</code></pre>
+<p>[code: missing-codepoints]</p>
 </span></li></ul></div></details>
 <h3>Check METADATA.pb includes production subsets.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/metadata/includes_production_subsets&gt;</div>
@@ -128,17 +137,17 @@
 <h3>Check font contains no unreachable glyphs</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 <details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
-- three.numr
-- one.dnom
-- uni0327.case
-- uni0307.case
-- qudblrit_qudblrit_qudblrit
 - four.numr
-- eight.numr
 - two.numr
+- six.numr
+- nine.dnom
 - seven.numr
-- three.dnom
-- And 26 more.</p>
+- uni0307.case
+- brevecombcy
+- two.dnom
+- qudblrit_qudblrit_qudblrit
+- brevecombcy.case
+- And 24 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
@@ -148,14 +157,14 @@
 </span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
 <pre><code>- Glyph name: percent	Contours detected: 4	Expected: 5
-- Glyph name: at	Contours detected: 1	Expected: 2
+- Glyph name: Q	Contours detected: 3	Expected: 2
+- Glyph name: q	Contours detected: 1	Expected: 2
 - Glyph name: uni00AD	Contours detected: 1	Expected: 0
 - Glyph name: fbfix	Contours detected: 0	Expected: 1
-- Glyph name: prime	Contours detected: 0	Expected: 1
-- Glyph name: doublePrime	Contours detected: 0	Expected: 2
 - Glyph name: arrowup	Contours detected: 0	Expected: 1
 - Glyph name: arrowdown	Contours detected: 0	Expected: 1
 - Glyph name: uniFFFD	Contours detected: 0	Expected: 3 or 5
+- Glyph name: Q	Contours detected: 3	Expected: 2
 - Glyph name: arrowdown	Contours detected: 0	Expected: 1 
 - And 5 more.
 </code></pre>
@@ -163,20 +172,14 @@
 [code: contour-count]</p>
 </span></li></ul></div></details>
 <h2>&lt;Section: Outline Correctness Checks&gt; ⚠️</h2>
-<h3>Are there any misaligned on-curve points?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
-<details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:
-* percent (U+0025): X=95.0,Y=1.0 (should be at baseline 0?)
-* percent (U+0025): X=328.0,Y=1.0 (should be at baseline 0?)
-* percent (U+0025): X=328.0,Y=1.0 (should be at baseline 0?)
-* ampersand (U+0026): X=136.0,Y=-2.0 (should be at baseline 0?)
-* ampersand (U+0026): X=495.0,Y=701.0 (should be at cap-height 700?)
-* ampersand (U+0026): X=136.0,Y=-2.0 (should be at baseline 0?)
-* parenleft (U+0028): X=47.5,Y=0.5 (should be at baseline 0?)
-* slash (U+002F): X=323.0,Y=698.0 (should be at cap-height 700?)
-* slash (U+002F): X=331.0,Y=699.0 (should be at cap-height 700?)
-* two (U+0032): X=72.0,Y=1.0 (should be at baseline 0?) and 83 more.</p>
-<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
+* G (U+0047): B&lt;&lt;420.5,88.5&gt;-&lt;437.0,136.0&gt;-&lt;450.0,177.0&gt;&gt;/B&lt;&lt;450.0,177.0&gt;-&lt;401.0,94.0&gt;-&lt;339.5,45.5&gt;&gt; = 12.963539713326167
+* h (U+0068): B&lt;&lt;165.5,307.5&gt;-&lt;144.0,227.0&gt;-&lt;118.0,149.0&gt;&gt;/B&lt;&lt;118.0,149.0&gt;-&lt;174.0,249.0&gt;-&lt;216.5,313.0&gt;&gt; = 10.813877513624918
+* m (U+006D): B&lt;&lt;181.0,426.0&gt;-&lt;181.0,339.0&gt;-&lt;115.0,136.0&gt;&gt;/B&lt;&lt;115.0,136.0&gt;-&lt;179.0,264.0&gt;-&lt;227.5,342.0&gt;&gt; = 8.554507773517456
+* m (U+006D): B&lt;&lt;473.5,312.5&gt;-&lt;471.0,288.0&gt;-&lt;464.0,262.0&gt;&gt;/B&lt;&lt;464.0,262.0&gt;-&lt;582.0,491.0&gt;-&lt;678.0,491.0&gt;&gt; = 12.192831617657696
+* n (U+006E): B&lt;&lt;156.5,266.5&gt;-&lt;144.0,215.0&gt;-&lt;129.0,169.0&gt;&gt;/B&lt;&lt;129.0,169.0&gt;-&lt;182.0,260.0&gt;-&lt;221.0,320.0&gt;&gt; = 12.15680202118516 and ntilde (U+00F1): B&lt;&lt;156.5,266.5&gt;-&lt;144.0,215.0&gt;-&lt;129.0,169.0&gt;&gt;/B&lt;&lt;129.0,169.0&gt;-&lt;182.0,260.0&gt;-&lt;221.0,320.0&gt;&gt; = 12.15680202118516 [code: found-jaggy-segments]</p>
 </span></li></ul></div></details>
                     </body>
                 </html>
