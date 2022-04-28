@@ -3,7 +3,7 @@
 Fontbakery version: 0.8.6
 
 <details>
-<summary><b>[12] Solitreo-Regular.ttf</b></summary>
+<summary><b>[11] Solitreo-Regular.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary>
 
@@ -75,22 +75,6 @@ Check CJK family has the same vertical metrics as the same family hosted on
 Google Fonts.</pre>
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x2032 (PRIME)
- 
-	- And 0x2033 (DOUBLE PRIME)
- [code: missing-codepoints]
 
 </details>
 <details>
@@ -167,17 +151,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- four.numr
+	- qudblleft_qudblleft_qudblleft
+	- zero.numr
+	- zero.dnom
+	- six.dnom
 	- two.numr
-	- six.numr
-	- nine.dnom
+	- one.numr
 	- seven.numr
-	- uni0307.case
-	- brevecombcy
-	- two.dnom
-	- qudblrit_qudblrit_qudblrit
-	- brevecombcy.case 
-	- And 24 more.
+	- eight.numr
+	- four.numr
+	- nine.numr 
+	- And 23 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -245,8 +229,8 @@ by manual inspection.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 6 | 1 | 5 | 102 | 7 | 101 | 0 |
-| 3% | 0% | 2% | 46% | 3% | 45% | 0% |
+| 6 | 0 | 5 | 102 | 7 | 102 | 0 |
+| 3% | 0% | 2% | 46% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
