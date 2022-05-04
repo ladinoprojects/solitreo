@@ -3,7 +3,7 @@
 Fontbakery version: 0.8.6
 
 <details>
-<summary><b>[11] Solitreo-Regular.ttf</b></summary>
+<summary><b>[10] Solitreo-Regular.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary>
 
@@ -151,19 +151,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- qudblleft_qudblleft_qudblleft
-	- zero.numr
-	- zero.dnom
-	- six.dnom
-	- two.numr
-	- one.numr
-	- seven.numr
-	- eight.numr
-	- four.numr
-	- nine.numr 
-	- And 23 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- uni030B.case
+	- uni0328.case
+	- uni030C.case
+	- brevecombcy.case
+	- uni030C.alt
+	- uni0307.case
+	- uni0304.case
+	- brevecombcy
+	- uni0327.case
+	- uni0326.case 
+	- And uni0306.case
  [code: unreachable-glyphs]
 
 </details>
@@ -191,35 +189,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: percent	Contours detected: 4	Expected: 5
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: q	Contours detected: 1	Expected: 2
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-	- Glyph name: fbfix	Contours detected: 0	Expected: 1
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-	- Glyph name: uniFFFD	Contours detected: 0	Expected: 3 or 5
 	- Glyph name: Q	Contours detected: 3	Expected: 2
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1 
-	- And 5 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	- Glyph name: percent	Contours detected: 4	Expected: 5 
+	- And Glyph name: q	Contours detected: 1	Expected: 2
  [code: contour-count]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
-
-* [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
-<pre>--- Rationale ---
-This check heuristically detects outline segments which form a particularly
-small angle, indicative of an outline error. This may cause false positives in
-cases such as extreme ink traps, so should be regarded as advisory and backed up
-by manual inspection.</pre>
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* G (U+0047): B<<420.5,88.5>-<437.0,136.0>-<450.0,177.0>>/B<<450.0,177.0>-<401.0,94.0>-<339.5,45.5>> = 12.963539713326167
-	* h (U+0068): B<<165.5,307.5>-<144.0,227.0>-<118.0,149.0>>/B<<118.0,149.0>-<174.0,249.0>-<216.5,313.0>> = 10.813877513624918
-	* m (U+006D): B<<181.0,426.0>-<181.0,339.0>-<115.0,136.0>>/B<<115.0,136.0>-<179.0,264.0>-<227.5,342.0>> = 8.554507773517456
-	* m (U+006D): B<<473.5,312.5>-<471.0,288.0>-<464.0,262.0>>/B<<464.0,262.0>-<582.0,491.0>-<678.0,491.0>> = 12.192831617657696
-	* n (U+006E): B<<156.5,266.5>-<144.0,215.0>-<129.0,169.0>>/B<<129.0,169.0>-<182.0,260.0>-<221.0,320.0>> = 12.15680202118516 and ntilde (U+00F1): B<<156.5,266.5>-<144.0,215.0>-<129.0,169.0>>/B<<129.0,169.0>-<182.0,260.0>-<221.0,320.0>> = 12.15680202118516 [code: found-jaggy-segments]
 
 </details>
 <br>
@@ -229,7 +202,7 @@ by manual inspection.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 6 | 0 | 5 | 102 | 7 | 102 | 0 |
+| 6 | 0 | 4 | 102 | 7 | 103 | 0 |
 | 3% | 0% | 2% | 46% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

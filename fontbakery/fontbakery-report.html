@@ -74,18 +74,18 @@
             <tr>
                 <td>6</td>
                 <td>0</td>
-                <td>5</td>
+                <td>4</td>
                 <td>102</td>
                 <td>7</td>
-                <td>102</td>
+                <td>103</td>
             </tr>
             <tr>
                 <td>4%</td>
                 <td>0%</td>
-                <td>3%</td>
-                <td>60%</td>
+                <td>2%</td>
+                <td>62%</td>
                 <td>4%</td>
-                <td>60%</td>
+                <td>63%</td>
             </tr>
             </table>
             
@@ -128,18 +128,17 @@
 <h3>Check font contains no unreachable glyphs</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 <details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
-- qudblleft_qudblleft_qudblleft
-- zero.numr
-- zero.dnom
-- six.dnom
-- two.numr
-- one.numr
-- seven.numr
-- eight.numr
-- four.numr
-- nine.numr
-- And 23 more.</p>
-<p>Use -F or --full-lists to disable shortening of long lists.
+- uni030B.case
+- uni0328.case
+- uni030C.case
+- brevecombcy.case
+- uni030C.alt
+- uni0307.case
+- uni0304.case
+- brevecombcy
+- uni0327.case
+- uni0326.case
+- And uni0306.case
 [code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
 <h3>Check if each glyph has the recommended amount of contours.</h3>
@@ -150,27 +149,11 @@
 <pre><code>- Glyph name: percent	Contours detected: 4	Expected: 5
 - Glyph name: Q	Contours detected: 3	Expected: 2
 - Glyph name: q	Contours detected: 1	Expected: 2
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-- Glyph name: fbfix	Contours detected: 0	Expected: 1
-- Glyph name: arrowup	Contours detected: 0	Expected: 1
-- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-- Glyph name: uniFFFD	Contours detected: 0	Expected: 3 or 5
 - Glyph name: Q	Contours detected: 3	Expected: 2
-- Glyph name: arrowdown	Contours detected: 0	Expected: 1 
-- And 5 more.
+- Glyph name: percent	Contours detected: 4	Expected: 5 
+- And Glyph name: q	Contours detected: 1	Expected: 2
 </code></pre>
-<p>Use -F or --full-lists to disable shortening of long lists.
-[code: contour-count]</p>
-</span></li></ul></div></details>
-<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️</h2>
-<h3>Do outlines contain any jaggy segments?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
-<details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:
-* G (U+0047): B&lt;&lt;420.5,88.5&gt;-&lt;437.0,136.0&gt;-&lt;450.0,177.0&gt;&gt;/B&lt;&lt;450.0,177.0&gt;-&lt;401.0,94.0&gt;-&lt;339.5,45.5&gt;&gt; = 12.963539713326167
-* h (U+0068): B&lt;&lt;165.5,307.5&gt;-&lt;144.0,227.0&gt;-&lt;118.0,149.0&gt;&gt;/B&lt;&lt;118.0,149.0&gt;-&lt;174.0,249.0&gt;-&lt;216.5,313.0&gt;&gt; = 10.813877513624918
-* m (U+006D): B&lt;&lt;181.0,426.0&gt;-&lt;181.0,339.0&gt;-&lt;115.0,136.0&gt;&gt;/B&lt;&lt;115.0,136.0&gt;-&lt;179.0,264.0&gt;-&lt;227.5,342.0&gt;&gt; = 8.554507773517456
-* m (U+006D): B&lt;&lt;473.5,312.5&gt;-&lt;471.0,288.0&gt;-&lt;464.0,262.0&gt;&gt;/B&lt;&lt;464.0,262.0&gt;-&lt;582.0,491.0&gt;-&lt;678.0,491.0&gt;&gt; = 12.192831617657696
-* n (U+006E): B&lt;&lt;156.5,266.5&gt;-&lt;144.0,215.0&gt;-&lt;129.0,169.0&gt;&gt;/B&lt;&lt;129.0,169.0&gt;-&lt;182.0,260.0&gt;-&lt;221.0,320.0&gt;&gt; = 12.15680202118516 and ntilde (U+00F1): B&lt;&lt;156.5,266.5&gt;-&lt;144.0,215.0&gt;-&lt;129.0,169.0&gt;&gt;/B&lt;&lt;129.0,169.0&gt;-&lt;182.0,260.0&gt;-&lt;221.0,320.0&gt;&gt; = 12.15680202118516 [code: found-jaggy-segments]</p>
+<p>[code: contour-count]</p>
 </span></li></ul></div></details>
                     </body>
                 </html>
