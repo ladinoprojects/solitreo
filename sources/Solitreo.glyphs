@@ -1,5 +1,8 @@
 {
 .appVersion = "3124";
+DisplayStrings = (
+"/tav-hb"
+);
 classes = (
 {
 automatic = 1;
@@ -195,7 +198,7 @@ value = 935;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -371;
 },
 {
 name = hheaLineGap;
