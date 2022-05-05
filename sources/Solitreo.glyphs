@@ -1,22 +1,14 @@
 {
 .appVersion = "3124";
-copyright = "Copyright 2015 The Solitreo Project Authors (https://github.com/ladinoprojects/solitreo)";
-customParameters = (
+classes = (
 {
-name = panose;
-value = (
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0
+automatic = 1;
+code = "A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE P Thorn Q R S T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Z";
+name = Uppercase;
+}
 );
-},
+copyright = "Copyright 2019 The Solitreo Project Authors (https://github.com/ladinoprojects/solitreo)";
+customParameters = (
 {
 name = fsType;
 value = (
@@ -45,20 +37,154 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 name = licenseURL;
 value = "https://scripts.sil.org/OFL";
+},
+{
+name = note;
+value = "This font was created as part of the Documenting Judeo-Spanish project. (documentingjudeospanish.com)\012\0122019-7-4: Created with FontForge (http://fontforge.org)";
 }
 );
 date = "2017-03-21 06:32:22 +0000";
-designer = "Nathan Gross";
+designer = "Nathan Gross, Bryan Kirschen, Binghamton University";
 designerURL = "https://documentingjudeospanish.com/";
-disablesNiceNames = 1;
 familyName = Solitreo;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem hebr dflt;
+languagesystem hebr IWR;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature subs;
+feature sinf;
+feature sups;
+feature frac;
+feature ordn;
+feature case;
+";
+name = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb slashlongcomb slashshortcomb strokeshortcomb];
+	sub [i]' @CombiningTopAccents by [idotless];
+	sub [i]' @CombiningNonTopAccents @CombiningTopAccents by [idotless];
+	@Markscomb = [brevecomb-cy dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb commaaccentcomb cedillacomb ogonekcomb];
+	@MarkscombCase = [brevecomb-cy.case dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+";
+name = ccmp;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+name = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+name = sinf;
+},
+{
+automatic = 1;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+";
+name = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+name = ordn;
+},
+{
+automatic = 1;
+code = "sub brevecomb-cy by brevecomb-cy.case;
+sub dieresiscomb by dieresiscomb.case;
+sub dotaccentcomb by dotaccentcomb.case;
+sub gravecomb by gravecomb.case;
+sub acutecomb by acutecomb.case;
+sub hungarumlautcomb by hungarumlautcomb.case;
+sub circumflexcomb by circumflexcomb.case;
+sub caroncomb by caroncomb.case;
+sub brevecomb by brevecomb.case;
+sub ringcomb by ringcomb.case;
+sub tildecomb by tildecomb.case;
+sub macroncomb by macroncomb.case;
+sub commaaccentcomb by commaaccentcomb.case;
+sub cedillacomb by cedillacomb.case;
+sub ogonekcomb by ogonekcomb.case;
+";
+name = case;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub alef-hb lamed-hb by uniFB4F;
+sub yod-hb yod-hb by yodyod-hb;
+";
+name = dlig;
+}
+);
 fontMaster = (
 {
 alignmentZones = (
 "{700, 10}",
 "{490, 10}",
-"{0, -10}",
-"{-190, -30}"
+"{0, -10}"
 );
 ascender = 750;
 capHeight = 700;
@@ -81,7 +207,7 @@ value = 935;
 },
 {
 name = typoDescender;
-value = -250;
+value = -371;
 },
 {
 name = typoLineGap;
@@ -89,7 +215,7 @@ value = 0;
 },
 {
 name = underlinePosition;
-value = -54.6875;
+value = -99;
 },
 {
 name = winAscent;
@@ -100,59 +226,12 @@ name = winDescent;
 value = 415;
 },
 {
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "X: 79";
-width = 79;
-},
-{
-horizontal = 1;
-name = "Y: 80";
-width = 80;
-},
-{
-horizontal = 1;
-name = "Y: 160";
-width = 160;
-},
-{
-horizontal = 1;
-name = "Y: 175";
-width = 175;
-},
-{
-horizontal = 1;
-name = "Y: 195";
-width = 195;
-},
-{
-horizontal = 1;
-name = "X: 233";
-width = 233;
-},
-{
-horizontal = 1;
-name = "X: 250";
-width = 250;
-}
-);
-},
-{
 name = "Master Icon Glyph Name";
 value = r;
 }
 );
-descender = -225;
-horizontalStems = (
-79,
-90
-);
+descender = -371;
 id = "FF2DC345-5101-49B6-97F3-57A040F7C387";
-verticalStems = (
-96
-);
 xHeight = 490;
 }
 );
