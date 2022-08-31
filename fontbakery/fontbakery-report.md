@@ -3,7 +3,7 @@
 Fontbakery version: 0.8.6
 
 <details>
-<summary><b>[10] Solitreo-Regular.ttf</b></summary>
+<summary><b>[12] Solitreo-Regular.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary>
 
@@ -101,6 +101,76 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
+<pre>--- Rationale ---
+All ligatures in a font must have corresponding caret (text cursor) positions
+defined in the GDEF table, otherwhise, users may experience issues with caret
+rendering.
+If using GlyphsApp or UFOs, ligature carets can be defined as anchors with names
+starting with &#x27;caret_&#x27;. These can be compiled with fontmake as of version
+v2.4.0.</pre>
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences?</summary>
+
+* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
+<pre>--- Rationale ---
+Fonts with ligatures should have kerning on the corresponding non-ligated
+sequences for text where ligatures aren&#x27;t used (eg
+https://github.com/impallari/Raleway/issues/14).</pre>
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+	- uni05D1 + uni05F3
+	- uni05F3 + quoteright
+	- quoteright + quotesingle
+	- uni05D2 + uni05F3
+	- uni05F3 + uni05D5
+	- uni05D5 + uni05F3
+	- uni05F3 + uni05D9
+	- uni05D9 + quoteright
+	- quoteright + uni05D5
+	- uni05D5 + quoteright
+	- quoteright + uni05D9
+	- uni05D9 + quotesingle
+	- quotesingle + uni05D5
+	- uni05D5 + quotesingle
+	- quotesingle + uni05D9
+	- uni05D9 + uni05F3
+	- uni05D5 + uni05D9
+	- uni05D3 + uni05F3
+	- uni05D9 + uni05D9
+	- uni05D9 + uni05D5
+	- uni05D4 + uni05F3
+	- uni05D6 + uni05F3
+	- uni05DF + uni05F3
+	- uni05E1 + uni05F3
+	- uni05E4 + uni05F3
+	- uni05E8 + uni05D1
+	- uni05F3 + uni05D1
+	- uni05D1 + quoteright
+	- quoteright + uni05D1
+	- uni05D1 + quotesingle
+	- uni05E9 + uni05F3
+	- uni05D2.alt + uni05F3
+	- uni05D3.alt + uni05F3
+	- quotedblleft + quotedblleft
+	- quotedblright + quotedblright
+	- quotedbl + quotedbl
+	- quotedbl + quotedblright
+	- quotedblright + quotedbl
+	- greater + greater
+	- less + less
+	- comma + comma
+
+   [code: lacks-kern-info]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
 
 * [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
@@ -151,8 +221,10 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uni030C.alt 
-	- And brevecombcy
+	- brevecombcy
+	- uni030C.alt
+	- uni05D3.alt 
+	- And uni05D2.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -193,8 +265,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 6 | 0 | 4 | 102 | 7 | 103 | 0 |
-| 3% | 0% | 2% | 46% | 3% | 46% | 0% |
+| 6 | 0 | 6 | 100 | 7 | 103 | 0 |
+| 3% | 0% | 3% | 45% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
