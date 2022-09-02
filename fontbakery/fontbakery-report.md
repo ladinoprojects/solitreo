@@ -2,172 +2,29 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[8] Solitreo-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[9] Solitreo-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
-	- 0x01CE (LATIN SMALL LETTER A WITH CARON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
 	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
 
 
 	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
 
 
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
 	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
 
 
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
 	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
  
 
 	- And 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 989, but got 945 instead [code: ascent]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -307,8 +164,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 7 | 111 | 7 | 101 | 0 |
-| 0% | 0% | 3% | 49% | 3% | 44% | 0% |
+| 0 | 2 | 7 | 111 | 7 | 100 | 0 |
+| 0% | 1% | 3% | 49% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
