@@ -108,9 +108,49 @@ Fontbakery version: 0.8.10
 
 	- brevecombcy
 
-	- uni05D2.alt 
+	- eight.dnom
 
-	- And uni05D3.alt
+	- eight.numr
+
+	- five.dnom
+
+	- five.numr
+
+	- four.dnom
+
+	- four.numr
+
+	- nine.dnom
+
+	- nine.numr
+
+	- one.dnom
+
+	- one.numr
+
+	- seven.dnom
+
+	- seven.numr
+
+	- six.dnom
+
+	- six.numr
+
+	- three.dnom
+
+	- three.numr
+
+	- two.dnom
+
+	- two.numr
+
+	- uni05D2.alt
+
+	- uni05D3.alt
+
+	- zero.dnom 
+
+	- And zero.numr
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -125,6 +165,10 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 
 	- Glyph name: q	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni2076	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni2086	Contours detected: 1	Expected: 2
 
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 
