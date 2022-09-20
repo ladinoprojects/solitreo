@@ -22,6 +22,8 @@ This font was developed by the [Documenting Judeo-Spanish Project](https://docum
 
 Documenting Judeo-Spanish is a digital humanities project that began in 2019 under the leadership of Dr. Bryan Kirschen. Recalling his initial fascination with Solitreo and the limited resources available to learn this script, Dr. Kirschen decided to focus this project on the cursive variety that was once common to speakers of Judeo-Spanish around the world. A nearly-extinct alphabet to an endangered language, this style of writing can be found in documents ranging from journal entries and ledgers to personal correspondence and community minutes. Many of these very documents are sitting in basements and attics today and, to the untrained eye, are mistaken for Hebrew.
 
+![Sample Image](documentation/image1.png)
+
 ## Building
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
@@ -36,9 +38,8 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
+**19 Sep 2022. Version 1.000**
+- Final QA before onboarding
 
 **16 Feb 2022. Version 1.000**
 - Converted source file from SFD to UFO
