@@ -38,9 +38,8 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
+**19 Sep 2022. Version 1.000**
+- Final QA before onboarding
 
 **16 Feb 2022. Version 1.000**
 - Converted source file from SFD to UFO
