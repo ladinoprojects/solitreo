@@ -16,13 +16,14 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
-FONT_PATH = "fonts/ttf/Rubik-Regular.ttf"
+FONT_PATH = "documentation/specimen_fonts/Solitreo-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
-BIG_TEXT = "Aa"
+BIG_TEXT = "אב"
+BIG_TEXT_2 = "ג"
 BIG_TEXT_FONT_SIZE = 1024
-BIG_TEXT_SIDE_MARGIN = MARGIN * 3.1
+BIG_TEXT_SIDE_MARGIN = MARGIN * 12.1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.5
 GRID_VIEW = False # Change this to "True" for a grid overlay
 
@@ -39,6 +40,7 @@ ttFont = TTFont(FONT_PATH)
 
 # Constants that are worked out dynamically
 MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
+MY_URL = "https://github.com/ladinoprojects/solitreo"
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
 FONT_NAME = ttFont["name"].getDebugName(4)
 FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
@@ -92,7 +94,8 @@ def draw_main_text():
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
     #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
-    text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
+    text(BIG_TEXT, (MARGIN*12, BIG_TEXT_BOTTOM_MARGIN))
+    text(BIG_TEXT_2, (MARGIN*8.2, BIG_TEXT_BOTTOM_MARGIN))
 
 
 # Divider lines
@@ -100,7 +103,7 @@ def draw_divider_lines():
     stroke(1)
     strokeWidth(4)
     lineCap("round")
-    line((MARGIN, HEIGHT - MARGIN), (WIDTH - MARGIN, HEIGHT - MARGIN))
+    line((MARGIN, HEIGHT - MARGIN - 64), (WIDTH - MARGIN, HEIGHT - MARGIN - 64))
     line((MARGIN, MARGIN + (MARGIN / 2)), (WIDTH - MARGIN, MARGIN + (MARGIN / 2)))
     stroke(None)
 
@@ -110,8 +113,8 @@ def draw_auxiliary_text():
     # Setup
     font(AUXILIARY_FONT)
     fontSize(AUXILIARY_FONT_SIZE)
-    POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.5)
-    POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.5)
+    POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.25)
+    POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.25)
     POS_BOTTOM_LEFT = (MARGIN, MARGIN)
     POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN)
     URL_AND_HASH = MY_URL + "at commit " + MY_HASH
