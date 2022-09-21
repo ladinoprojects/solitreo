@@ -44,6 +44,9 @@ Each commit to this Git repository also has font files avaiable for download fro
 
 ## Changelog
 
+**21 Sep 2022. Version 1.000**
+- [Version 1.000 release](https://github.com/ladinoprojects/solitreo/releases/tag/v1.000)
+
 **20 Sep 2022. Version 0.100**
 - Add sample image to main README
 
