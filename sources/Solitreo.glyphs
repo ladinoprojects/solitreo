@@ -1,9 +1,6 @@
 {
 .appVersion = "3136";
 .formatVersion = 3;
-DisplayStrings = (
-"ישראלאיס"
-);
 axes = (
 {
 name = Weight;
@@ -247,6 +244,8 @@ lookup SUB_0 {
 	sub quotedblleft quotedblleft by quotedblleft_quotedblleft;
 	sub quotedblright quotedblright quotedblright by qudblrit_qudblrit_qudblrit;
 	sub quotedblright quotedblright by quotedblright_quotedblright;
+	sub resh-hb alef-hb by resh_alef-hb;
+	sub lamed-hb alef-hb by lamed_alef-hb;
 } SUB_0;
 lookup SUB_30 {
 	sub comma comma by quotedblbase;
@@ -22646,6 +22645,25 @@ width = 200;
 );
 },
 {
+color = 4;
+glyphname = "lamed_alef-hb";
+layers = (
+{
+layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
+shapes = (
+{
+pos = (206,0);
+ref = "lamed-hb";
+},
+{
+ref = "alef-hb";
+}
+);
+width = 540;
+}
+);
+},
+{
 color = 5;
 glyphname = uni05DF_uni05F3;
 layers = (
@@ -23171,6 +23189,25 @@ nodes = (
 );
 visible = 1;
 width = 387;
+}
+);
+},
+{
+color = 4;
+glyphname = "resh_alef-hb";
+layers = (
+{
+layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
+shapes = (
+{
+pos = (446,0);
+ref = "resh-hb";
+},
+{
+ref = "alef-hb";
+}
+);
+width = 720;
 }
 );
 },
