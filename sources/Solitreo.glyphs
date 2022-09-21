@@ -1,6 +1,9 @@
 {
 .appVersion = "3136";
 .formatVersion = 3;
+DisplayStrings = (
+"ישראלאיס"
+);
 axes = (
 {
 name = Weight;
@@ -14234,6 +14237,8 @@ width = 333;
 {
 color = 5;
 glyphname = "alef-hb";
+kernLeft = "alef-hb";
+kernRight = "alef-hb";
 layers = (
 {
 anchors = (
@@ -16619,8 +16624,8 @@ unicode = 64315;
 {
 color = 5;
 glyphname = "lamed-hb";
-kernLeft = lamedhebrew;
-kernRight = lamedhebrew;
+kernLeft = "lamed-hb";
+kernRight = "lamed-hb";
 layers = (
 {
 anchors = (
@@ -19010,7 +19015,8 @@ unicode = 64327;
 {
 color = 5;
 glyphname = "resh-hb";
-kernLeft = hethebrew;
+kernLeft = "resh-hb";
+kernRight = "resh-hb";
 layers = (
 {
 anchors = (
@@ -19249,8 +19255,8 @@ unicode = 64328;
 {
 color = 5;
 glyphname = "shin-hb";
-kernLeft = lamedhebrew;
-kernRight = shinhebrew;
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 anchors = (
@@ -46831,6 +46837,19 @@ space = 0;
 };
 "alef-hb" = {
 "@MMK_R_lamedhebrew" = 80;
+};
+};
+};
+kerningRTL = {
+"FF2DC345-5101-49B6-97F3-57A040F7C387" = {
+"@MMK_R_lamed-hb" = {
+"@MMK_L_alef-hb" = 50;
+};
+"@MMK_R_resh-hb" = {
+"@MMK_L_alef-hb" = 290;
+};
+"@MMK_R_shin-hb" = {
+"@MMK_L_resh-hb" = -20;
 };
 };
 };
