@@ -60,6 +60,8 @@ Fontbakery version: 0.8.10
 
 	- uni05D6 + uni05F3
 
+	- uni05DC + uni05D0
+
 	- uni05DF + uni05F3
 
 	- uni05E1 + uni05F3
@@ -75,6 +77,10 @@ Fontbakery version: 0.8.10
 	- quoteright + uni05D1
 
 	- uni05D1 + quotesingle
+
+	- quotesingle + uni05D0
+
+	- uni05D0 + uni05D9
 
 	- uni05E9 + uni05F3
 
