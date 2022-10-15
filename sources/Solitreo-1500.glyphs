@@ -1,6 +1,11 @@
 {
 .appVersion = "3140";
 .formatVersion = 3;
+DisplayStrings = (
+"׳",
+"/uni05D2.alt_uni05F3/uni05D3.alt_uni05F3/uni05D2.alt_quoteright/uni05D3.alt_quoteright/uni05D2.alt_quotesingle/uni05D3.alt_quotesingle אאַאָאּבבּגגּדדּההּווּוֹזזּחטטּייּךךּככּללּםממּןננּססּעףףּפפּץצצּקקּררּששׁשׂשּׁשּׂשּתתּ/gimel-hb.alt/dalet-hb.alt/uni05D0.alt/uni05D1.alt/uni05D4.alt/uni05D5.alt/uni05D9.alt/uni05E1.alt/uni05E6.alt/uni05E8.alt/uni05D0.yud/uni05D8.yud/uni05E1.yud/uni05D0.alt.yud/uni05D1_uni05F3/uni05D2_uni05D5/uni05D2_uni05D9/uni05D2_uni05F3/uni05D2_uni05F3_uni05D5/uni05D2_uni05F3_uni05D9/uni05D3_uni05D9/uni05D3_uni05D9_uni05D9/uni05D3_uni05D9_uni05D9_uni05D5/uni05D3_uni05F3/uni05D3_uni05F3_uni05D9/uni05D3_uni05F3_uni05D9_uni05D9/uni05D4_uni05F3/uni05D6_uni05F3/lamed_alef-hb/uni05DF_uni05F3/uni05E1_uni05F3/uni05E4_uni05F3/resh_alef-hb/uni05E8_uni05D1_uni05F3/uni05E8_uni05D9/uni05E9_uni05F3 ײﭏ/uni05D1_quoteright/uni05D1_quotesingle/uni05D2_quoteright/uni05D2_quoteright_uni05D5/uni05D2_quoteright_uni05D9/uni05D2_quotesingle/uni05D2_quotesingle_uni05D5/uni05D2_quotesingle_uni05D9/uni05D3_quoteright/uni05D3_quoteright_uni05D9/u05D3_quoteright_u05D9_u05D9/uni05D3_quotesingle/uni05D3_quotesingle_uni05D9/u05D3_quotesingle_u05D9_u05D9/uni05D4_quoteright/uni05D4_quotesingle/uni05D6_quoteright/uni05D6_quotesingle/uni05DF_quoteright/uni05DF_quotesingle/uni05E1_quoteright/uni05E1_quotesingle/uni05E4_quoteright/uni05E4_quotesingle/uni05E8_uni05D1_quoteright/uni05E8_uni05D1_quotesingle/uni05E9_quoteright/uni05E9_quotesingle",
+"א"
+);
 axes = (
 {
 name = Weight;
@@ -22652,14 +22657,14 @@ layers = (
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
 shapes = (
 {
-pos = (284,0);
+pos = (309,0);
 ref = "lamed-hb";
 },
 {
 ref = "alef-hb";
 }
 );
-width = 785;
+width = 810;
 }
 );
 },
@@ -23200,14 +23205,14 @@ layers = (
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
 shapes = (
 {
-pos = (524,0);
+pos = (669,0);
 ref = "resh-hb";
 },
 {
 ref = "alef-hb";
 }
 );
-width = 935;
+width = 1080;
 }
 );
 },
