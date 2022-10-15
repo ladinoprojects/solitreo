@@ -1,12 +1,6 @@
 {
 .appVersion = "3140";
 .formatVersion = 3;
-DisplayStrings = (
-"ְ",
-"׳",
-"״",
-"א"
-);
 axes = (
 {
 name = Weight;
@@ -300,11 +294,11 @@ value = -99;
 },
 {
 name = winAscent;
-value = 989;
+value = 1050;
 },
 {
 name = winDescent;
-value = 415;
+value = 622;
 },
 {
 name = "Master Icon Glyph Name";
