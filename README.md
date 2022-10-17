@@ -44,6 +44,10 @@ Each commit to this Git repository also has font files avaiable for download fro
 
 ## Changelog
 
+**15 Oct 2022. Version 1.100**
+- Scale up Hebrew glyphs to fix a [PR](https://github.com/google/fonts/pull/5297) blocker.
+- [Version 1.100 release](https://github.com/ladinoprojects/solitreo/releases/tag/v1.100)
+
 **21 Sep 2022. Version 1.000**
 - [Version 1.000 release](https://github.com/ladinoprojects/solitreo/releases/tag/v1.000)
 
