@@ -1,16 +1,6 @@
 {
 .appVersion = "3140";
 .formatVersion = 3;
-DisplayStrings = (
-"/uni05D3_uni05D9_uni05D9_uni05D5",
-"ל",
-"ת",
-d,
-p,
-"א",
-"ף",
-g
-);
 axes = (
 {
 name = Weight;
@@ -276,11 +266,11 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 700;
+value = 880;
 },
 {
 name = hheaDescender;
-value = -300;
+value = -550;
 },
 {
 name = hheaLineGap;
@@ -288,11 +278,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 700;
+value = 880;
 },
 {
 name = typoDescender;
-value = -300;
+value = -550;
 },
 {
 name = typoLineGap;
@@ -300,11 +290,11 @@ value = 0;
 },
 {
 name = underlinePosition;
-value = -99;
+value = -50;
 },
 {
 name = winAscent;
-value = 700;
+value = 1000;
 },
 {
 name = winDescent;
@@ -332,7 +322,7 @@ pos = 490;
 over = -10;
 },
 {
-pos = -371;
+pos = -320;
 },
 {
 }
