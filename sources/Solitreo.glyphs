@@ -1,6 +1,16 @@
 {
 .appVersion = "3140";
 .formatVersion = 3;
+DisplayStrings = (
+"/uni05D3_uni05D9_uni05D9_uni05D5",
+"ל",
+"ת",
+d,
+p,
+"א",
+"ף",
+g
+);
 axes = (
 {
 name = Weight;
@@ -266,11 +276,11 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 935;
+value = 700;
 },
 {
 name = hheaDescender;
-value = -371;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -278,11 +288,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 935;
+value = 700;
 },
 {
 name = typoDescender;
-value = -371;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -294,11 +304,11 @@ value = -99;
 },
 {
 name = winAscent;
-value = 1550;
+value = 700;
 },
 {
 name = winDescent;
-value = 622;
+value = 600;
 },
 {
 name = "Master Icon Glyph Name";
@@ -14435,7 +14445,7 @@ shapes = (
 ref = "alef-hb";
 },
 {
-pos = (221,-251);
+pos = (221,-281);
 ref = "dagesh-hb";
 }
 );
@@ -14659,7 +14669,7 @@ shapes = (
 ref = "bet-hb";
 },
 {
-pos = (117,-262);
+pos = (117,-292);
 ref = "dagesh-hb";
 }
 );
@@ -14863,7 +14873,7 @@ shapes = (
 ref = "gimel-hb";
 },
 {
-pos = (393,-262);
+pos = (393,-292);
 ref = "dagesh-hb";
 }
 );
@@ -15075,7 +15085,7 @@ shapes = (
 ref = "dalet-hb";
 },
 {
-pos = (0,-213);
+pos = (0,-243);
 ref = "dagesh-hb";
 }
 );
@@ -15290,7 +15300,7 @@ shapes = (
 ref = "he-hb";
 },
 {
-pos = (278,-220);
+pos = (278,-250);
 ref = "dagesh-hb";
 }
 );
@@ -15686,7 +15696,7 @@ shapes = (
 ref = "zayin-hb";
 },
 {
-pos = (42,-195);
+pos = (42,-225);
 ref = "dagesh-hb";
 }
 );
@@ -16062,7 +16072,7 @@ shapes = (
 ref = "tet-hb";
 },
 {
-pos = (229,-238);
+pos = (229,-268);
 ref = "dagesh-hb";
 }
 );
@@ -16475,7 +16485,7 @@ shapes = (
 ref = "finalkaf-hb";
 },
 {
-pos = (55,-297);
+pos = (55,-327);
 ref = "dagesh-hb";
 }
 );
@@ -16601,7 +16611,7 @@ shapes = (
 ref = "kaf-hb";
 },
 {
-pos = (180,-238);
+pos = (180,-268);
 ref = "dagesh-hb";
 }
 );
@@ -16808,7 +16818,7 @@ shapes = (
 ref = "lamed-hb";
 },
 {
-pos = (231,71);
+pos = (231,41);
 ref = "dagesh-hb";
 }
 );
@@ -17225,7 +17235,7 @@ shapes = (
 ref = "mem-hb";
 },
 {
-pos = (229,-242);
+pos = (229,-272);
 ref = "dagesh-hb";
 }
 );
@@ -17550,7 +17560,7 @@ shapes = (
 ref = "nun-hb";
 },
 {
-pos = (-25,-169);
+pos = (-25,-199);
 ref = "dagesh-hb";
 }
 );
@@ -17803,7 +17813,7 @@ shapes = (
 ref = "samekh-hb";
 },
 {
-pos = (211,-276);
+pos = (211,-306);
 ref = "dagesh-hb";
 }
 );
@@ -18127,7 +18137,7 @@ shapes = (
 ref = "finalpe-hb";
 },
 {
-pos = (86,50);
+pos = (86,20);
 ref = "dagesh-hb";
 }
 );
@@ -18352,7 +18362,7 @@ shapes = (
 ref = "pe-hb";
 },
 {
-pos = (219,-277);
+pos = (219,-307);
 ref = "dagesh-hb";
 }
 );
@@ -18848,7 +18858,7 @@ shapes = (
 ref = "tsadi-hb";
 },
 {
-pos = (64,130);
+pos = (64,100);
 ref = "dagesh-hb";
 }
 );
@@ -18985,7 +18995,7 @@ shapes = (
 ref = "qof-hb";
 },
 {
-pos = (-48,-276);
+pos = (-48,-306);
 ref = "dagesh-hb";
 }
 );
@@ -19224,7 +19234,7 @@ shapes = (
 ref = "resh-hb";
 },
 {
-pos = (80,168);
+pos = (80,138);
 ref = "dagesh-hb";
 }
 );
@@ -19507,7 +19517,7 @@ shapes = (
 ref = "shin-hb";
 },
 {
-pos = (485,-231);
+pos = (485,-275);
 ref = "shindot-hb";
 }
 );
@@ -19529,7 +19539,7 @@ shapes = (
 ref = "shin-hb";
 },
 {
-pos = (135,-132);
+pos = (135,-176);
 ref = "sindot-hb";
 }
 );
@@ -19562,11 +19572,11 @@ shapes = (
 ref = "shin-hb";
 },
 {
-pos = (268,-276);
+pos = (268,-306);
 ref = "dagesh-hb";
 },
 {
-pos = (485,-231);
+pos = (485,-275);
 ref = "shindot-hb";
 }
 );
@@ -19588,11 +19598,11 @@ shapes = (
 ref = "shin-hb";
 },
 {
-pos = (268,-276);
+pos = (268,-306);
 ref = "dagesh-hb";
 },
 {
-pos = (135,-132);
+pos = (135,-176);
 ref = "sindot-hb";
 }
 );
@@ -19614,7 +19624,7 @@ shapes = (
 ref = "shin-hb";
 },
 {
-pos = (268,-276);
+pos = (268,-306);
 ref = "dagesh-hb";
 }
 );
@@ -19769,7 +19779,7 @@ shapes = (
 ref = "tav-hb";
 },
 {
-pos = (214,-244);
+pos = (214,-274);
 ref = "dagesh-hb";
 }
 );
@@ -22620,14 +22630,14 @@ layers = (
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
 shapes = (
 {
-pos = (270,0);
+pos = (276,0);
 ref = "lamed-hb";
 },
 {
 ref = "alef-hb";
 }
 );
-width = 689;
+width = 695;
 }
 );
 },
@@ -23165,14 +23175,14 @@ layers = (
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
 shapes = (
 {
-pos = (605,0);
+pos = (636,0);
 ref = "resh-hb";
 },
 {
 ref = "alef-hb";
 }
 );
-width = 949;
+width = 980;
 }
 );
 },
