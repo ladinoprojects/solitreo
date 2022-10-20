@@ -13516,6 +13516,8 @@ y = 0;
 {
 color = 5;
 glyphname = uni05D2.alt_uni05F3;
+kernLeft = "gimel-hb";
+kernRight = "gimel-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -13679,6 +13681,8 @@ width = 509;
 {
 color = 5;
 glyphname = uni05D3.alt_uni05F3;
+kernLeft = "dalet-hb";
+kernRight = "dalet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -14387,6 +14391,8 @@ y = 0;
 {
 color = 4;
 glyphname = "alefpatah-hb";
+kernLeft = "alef-hb";
+kernRight = "alef-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -14407,6 +14413,8 @@ unicode = 64302;
 {
 color = 4;
 glyphname = "alefqamats-hb";
+kernLeft = "alef-hb";
+kernRight = "alef-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -14427,6 +14435,8 @@ unicode = 64303;
 {
 color = 4;
 glyphname = "alefdagesh-hb";
+kernLeft = "alef-hb";
+kernRight = "alef-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -14649,8 +14659,8 @@ y = 0;
 {
 color = 4;
 glyphname = "betdagesh-hb";
-kernLeft = bethebrew;
-kernRight = bethebrew;
+kernLeft = "bet-hb";
+kernRight = "bet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -14853,8 +14863,8 @@ y = 0;
 {
 color = 4;
 glyphname = "gimeldagesh-hb";
-kernLeft = gimelhebrew;
-kernRight = gimelhebrew;
+kernLeft = "gimel-hb";
+kernRight = "gimel-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -15065,8 +15075,8 @@ y = 0;
 {
 color = 4;
 glyphname = "daletdagesh-hb";
-kernLeft = dalethebrew;
-kernRight = dalethebrew;
+kernLeft = "dalet-hb";
+kernRight = "dalet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -15280,8 +15290,8 @@ y = 0;
 {
 color = 4;
 glyphname = "hedagesh-hb";
-kernLeft = hethebrew;
-kernRight = vavhebrew;
+kernLeft = "he-hb";
+kernRight = "he-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -15465,7 +15475,8 @@ y = 571;
 {
 color = 4;
 glyphname = "vavdagesh-hb";
-kernLeft = vavhebrew;
+kernLeft = "vavdagesh-hb";
+kernRight = "vav-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -15481,7 +15492,7 @@ pos = (-61,-130);
 ref = "dagesh-hb";
 }
 );
-width = 331;
+width = 231;
 }
 );
 unicode = 64309;
@@ -15489,6 +15500,8 @@ unicode = 64309;
 {
 color = 4;
 glyphname = "vavholam-hb";
+kernLeft = "vav-hb";
+kernRight = "vav-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -15676,8 +15689,8 @@ y = 571;
 {
 color = 4;
 glyphname = "zayindagesh-hb";
-kernLeft = zayinhebrew;
-kernRight = zayinhebrew;
+kernLeft = "zayin-hb";
+kernRight = "zayin-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -15686,7 +15699,8 @@ shapes = (
 ref = "zayin-hb";
 },
 {
-pos = (42,-225);
+alignment = -1;
+pos = (-30,-143);
 ref = "dagesh-hb";
 }
 );
@@ -16052,8 +16066,8 @@ y = 0;
 {
 color = 4;
 glyphname = "tetdagesh-hb";
-kernLeft = tethebrew;
-kernRight = tethebrew;
+kernLeft = "tet-hb";
+kernRight = "tet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -16220,8 +16234,8 @@ y = 240;
 {
 color = 4;
 glyphname = "yoddagesh-hb";
-kernLeft = yodhebrew;
-kernRight = yodhebrew;
+kernLeft = "yoddagesh-hb";
+kernRight = "yod-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -16233,11 +16247,11 @@ ref = "yod-hb";
 },
 {
 alignment = -1;
-pos = (-61,-174);
+pos = (-63,-324);
 ref = "dagesh-hb";
 }
 );
-width = 320;
+width = 216;
 }
 );
 unicode = 64313;
@@ -16256,8 +16270,8 @@ y = 240;
 {
 color = 5;
 glyphname = "finalkaf-hb";
-kernLeft = dalethebrew;
-kernRight = dalethebrew;
+kernLeft = "finalkaf-hb";
+kernRight = "finalkaf-hb";
 layers = (
 {
 anchors = (
@@ -16270,7 +16284,7 @@ name = bottomleft;
 },
 {
 name = center;
-pos = (55,105);
+pos = (74,103);
 },
 {
 name = top;
@@ -16317,9 +16331,9 @@ nodes = (
 (233,279,o),
 (233,243,cs),
 (233,231,o),
-(231,218,o),
+(229,219,o),
 (222,200,cs),
-(74,-140,o),
+(104,-140,o),
 (68,-254,o),
 (-44,-365,cs),
 (-53,-375,o),
@@ -16465,8 +16479,8 @@ y = 61;
 {
 color = 4;
 glyphname = "finalkafdagesh-hb";
-kernLeft = dalethebrew;
-kernRight = dalethebrew;
+kernLeft = "finalkaf-hb";
+kernRight = "finalkaf-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -16475,7 +16489,7 @@ shapes = (
 ref = "finalkaf-hb";
 },
 {
-pos = (55,-327);
+pos = (74,-329);
 ref = "dagesh-hb";
 }
 );
@@ -16502,7 +16516,7 @@ pos = (-98,0);
 },
 {
 name = center;
-pos = (180,164);
+pos = (110,99);
 },
 {
 name = top;
@@ -16591,8 +16605,8 @@ y = 0;
 {
 color = 4;
 glyphname = "kafdagesh-hb";
-kernLeft = kafhebrew;
-kernRight = kafhebrew;
+kernLeft = "kaf-hb";
+kernRight = "kaf-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -16601,7 +16615,7 @@ shapes = (
 ref = "kaf-hb";
 },
 {
-pos = (180,-268);
+pos = (110,-333);
 ref = "dagesh-hb";
 }
 );
@@ -16798,8 +16812,8 @@ y = 0;
 {
 color = 4;
 glyphname = "lameddagesh-hb";
-kernLeft = lamedhebrew;
-kernRight = lamedhebrew;
+kernLeft = "lamed-hb";
+kernRight = "lamed-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -16858,8 +16872,8 @@ nodes = (
 (333,351,o),
 (223,351,cs),
 (88,351,o),
-(0,261,o),
-(0,146,cs),
+(0,241,o),
+(0,126,cs),
 (0,49,o),
 (40,0,o),
 (138,0,cs)
@@ -16868,8 +16882,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(87,57,o),
-(80,107,o),
+(97,57,o),
+(80,87,o),
 (80,127,cs),
 (80,218,o),
 (147,297,o),
@@ -16878,8 +16892,8 @@ nodes = (
 (271,265,o),
 (271,222,cs),
 (271,130,o),
-(206,57,o),
-(133,57,cs)
+(216,57,o),
+(143,57,cs)
 );
 }
 );
@@ -17044,9 +17058,9 @@ nodes = (
 (21,33,o),
 (50,77,c),
 (71,37,o),
-(98,0,o),
-(160,0,cs),
-(304,0,o),
+(90,0,o),
+(170,0,cs),
+(311,0,o),
 (362,100,o),
 (436,214,cs),
 (448,233,o),
@@ -17061,7 +17075,7 @@ nodes = (
 (341,381,o),
 (352,58,o),
 (163,58,cs),
-(132,58,o),
+(125,58,o),
 (108,88,o),
 (108,130,cs),
 (108,183,o),
@@ -17215,8 +17229,8 @@ y = 0;
 {
 color = 4;
 glyphname = "memdagesh-hb";
-kernLeft = hethebrew;
-kernRight = memhebrew;
+kernLeft = "mem-hb";
+kernRight = "mem-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -17378,8 +17392,8 @@ unicode = 1503;
 {
 color = 5;
 glyphname = "nun-hb";
-kernLeft = hethebrew;
-kernRight = nunhebrew;
+kernLeft = "nun-hb";
+kernRight = "nun-hb";
 layers = (
 {
 anchors = (
@@ -17540,8 +17554,8 @@ y = 0;
 {
 color = 4;
 glyphname = "nundagesh-hb";
-kernLeft = hethebrew;
-kernRight = nunhebrew;
+kernLeft = "nun-hb";
+kernRight = "nun-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -17562,8 +17576,8 @@ unicode = 64320;
 {
 color = 5;
 glyphname = "samekh-hb";
-kernLeft = tethebrew;
-kernRight = tethebrew;
+kernLeft = "samekh-hb";
+kernRight = "samekh-hb";
 layers = (
 {
 anchors = (
@@ -17793,8 +17807,8 @@ y = 0;
 {
 color = 4;
 glyphname = "samekhdagesh-hb";
-kernLeft = tethebrew;
-kernRight = tethebrew;
+kernLeft = "samekh-hb";
+kernRight = "samekh-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -17934,7 +17948,7 @@ pos = (-25,0);
 },
 {
 name = center;
-pos = (86,452);
+pos = (83,441);
 },
 {
 name = top;
@@ -18119,6 +18133,8 @@ y = 0;
 {
 color = 4;
 glyphname = "finalpedagesh-hb";
+kernLeft = "finalpe-hb";
+kernRight = "finalpe-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -18127,7 +18143,7 @@ shapes = (
 ref = "finalpe-hb";
 },
 {
-pos = (86,20);
+pos = (83,9);
 ref = "dagesh-hb";
 }
 );
@@ -18139,8 +18155,8 @@ unicode = 64323;
 {
 color = 5;
 glyphname = "pe-hb";
-kernLeft = tethebrew;
-kernRight = pehebrew;
+kernLeft = "pe-hb";
+kernRight = "pe-hb";
 layers = (
 {
 anchors = (
@@ -18344,6 +18360,8 @@ y = 0;
 {
 color = 4;
 glyphname = "pedagesh-hb";
+kernLeft = "pe-hb";
+kernRight = "pe-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -18364,6 +18382,8 @@ unicode = 64324;
 {
 color = 5;
 glyphname = "finaltsadi-hb";
+kernLeft = "finaltsadi-hb";
+kernRight = "finaltsadi-hb";
 layers = (
 {
 anchors = (
@@ -18838,8 +18858,8 @@ y = 0;
 {
 color = 4;
 glyphname = "tsadidagesh-hb";
-kernLeft = tsadihebrew;
-kernRight = tsadihebrew;
+kernLeft = "tsadi-hb";
+kernRight = "tsadi-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -18907,9 +18927,9 @@ nodes = (
 (25,72,o),
 (-41,46,cs),
 (-138,7,o),
-(-179,-39,o),
-(-281,-196,cs),
-(-294,-216,o),
+(-150,-36,o),
+(-252,-193,cs),
+(-265,-213,o),
 (-297,-216,o),
 (-317,-216,cs),
 (-352,-216,o),
@@ -18975,8 +18995,8 @@ y = 0;
 {
 color = 4;
 glyphname = "qofdagesh-hb";
-kernLeft = lamedhebrew;
-kernRight = vavhebrew;
+kernLeft = "qof-hb";
+kernRight = "qof-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -19216,6 +19236,8 @@ y = 0;
 {
 color = 4;
 glyphname = "reshdagesh-hb";
+kernLeft = "resh-hb";
+kernRight = "resh-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -19497,8 +19519,8 @@ y = 571;
 {
 color = 4;
 glyphname = "shinshindot-hb";
-kernLeft = lamedhebrew;
-kernRight = shinhebrew;
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -19519,8 +19541,8 @@ unicode = 64298;
 {
 color = 4;
 glyphname = "shinsindot-hb";
-kernLeft = lamedhebrew;
-kernRight = shinhebrew;
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -19552,8 +19574,8 @@ y = 0;
 {
 color = 4;
 glyphname = "shindageshshindot-hb";
-kernLeft = lamedhebrew;
-kernRight = shinhebrew;
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -19578,8 +19600,8 @@ unicode = 64300;
 {
 color = 4;
 glyphname = "shindageshsindot-hb";
-kernLeft = lamedhebrew;
-kernRight = shinhebrew;
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -19604,8 +19626,8 @@ unicode = 64301;
 {
 color = 4;
 glyphname = "shindagesh-hb";
-kernLeft = lamedhebrew;
-kernRight = shinhebrew;
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -19657,7 +19679,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-141,-528,o),
+(-91,-528,o),
 (32,-179,o),
 (103,50,c),
 (118,34,o),
@@ -19685,29 +19707,29 @@ nodes = (
 (14,148,o),
 (9,127,cs),
 (-60,-146,o),
-(-223,-445,o),
-(-518,-445,cs),
-(-640,-445,o),
-(-684,-368,o),
-(-684,-285,cs),
-(-684,-221,o),
-(-648,-179,o),
-(-590,-131,cs),
-(-562,-110,o),
-(-551,-91,o),
-(-551,-79,cs),
-(-551,-69,o),
-(-560,-62,o),
-(-573,-62,cs),
-(-590,-62,o),
-(-615,-73,o),
-(-643,-94,cs),
-(-725,-157,o),
-(-767,-221,o),
-(-767,-299,cs),
-(-767,-419,o),
-(-705,-528,o),
-(-539,-528,cs)
+(-173,-445,o),
+(-468,-445,cs),
+(-580,-445,o),
+(-634,-388,o),
+(-634,-305,cs),
+(-634,-224,o),
+(-608,-179,o),
+(-550,-131,cs),
+(-522,-110,o),
+(-511,-91,o),
+(-511,-79,cs),
+(-511,-69,o),
+(-520,-62,o),
+(-533,-62,cs),
+(-550,-62,o),
+(-575,-73,o),
+(-603,-94,cs),
+(-685,-157,o),
+(-717,-241,o),
+(-717,-319,cs),
+(-717,-439,o),
+(-645,-528,o),
+(-489,-528,cs)
 );
 }
 );
@@ -19781,6 +19803,8 @@ unicode = 64330;
 {
 color = 5;
 glyphname = "gimel-hb.alt";
+kernLeft = "gimel-hb";
+kernRight = "gimel-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -19892,6 +19916,8 @@ width = 509;
 {
 color = 5;
 glyphname = "dalet-hb.alt";
+kernLeft = "dalet-hb";
+kernRight = "dalet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -20758,6 +20784,8 @@ width = 297;
 {
 color = 4;
 glyphname = uni05D1_uni05F3;
+kernLeft = "bet-hb";
+kernRight = "bet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -20874,6 +20902,8 @@ width = 383;
 {
 color = 4;
 glyphname = uni05D2_uni05D5;
+kernLeft = "gimel-hb";
+kernRight = "gimel-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -20894,6 +20924,8 @@ width = 735;
 {
 color = 4;
 glyphname = uni05D2_uni05D9;
+kernLeft = "gimel-hb";
+kernRight = "gimel-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -20913,6 +20945,8 @@ width = 735;
 {
 color = 4;
 glyphname = uni05D2_uni05F3;
+kernLeft = "gimel-hb";
+kernRight = "gimel-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -20932,6 +20966,8 @@ width = 735;
 {
 color = 4;
 glyphname = uni05D2_uni05F3_uni05D5;
+kernLeft = "gimel-hb";
+kernRight = "gimel-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -21063,6 +21099,8 @@ width = 735;
 {
 color = 4;
 glyphname = uni05D2_uni05F3_uni05D9;
+kernLeft = "gimel-hb";
+kernRight = "gimel-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -21187,6 +21225,8 @@ width = 735;
 {
 color = 5;
 glyphname = uni05D3_uni05D9;
+kernLeft = "dalet-hb";
+kernRight = "dalet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -21328,6 +21368,8 @@ width = 495;
 {
 color = 5;
 glyphname = uni05D3_uni05D9_uni05D9;
+kernLeft = "dalet-hb";
+kernRight = "dalet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -21504,6 +21546,8 @@ width = 602;
 {
 color = 5;
 glyphname = uni05D3_uni05D9_uni05D9_uni05D5;
+kernLeft = "finalnun-hb";
+kernRight = "dalet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -21786,6 +21830,8 @@ width = 773;
 {
 color = 5;
 glyphname = uni05D3_uni05F3;
+kernLeft = "dalet-hb";
+kernRight = "dalet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -21928,6 +21974,8 @@ width = 286;
 {
 color = 5;
 glyphname = uni05D3_uni05F3_uni05D9;
+kernLeft = "dalet-hb";
+kernRight = "dalet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -22121,6 +22169,8 @@ width = 492;
 {
 color = 5;
 glyphname = uni05D3_uni05F3_uni05D9_uni05D9;
+kernLeft = "dalet-hb";
+kernRight = "dalet-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -22349,6 +22399,8 @@ width = 602;
 {
 color = 5;
 glyphname = uni05D4_uni05F3;
+kernLeft = "zayin-hb";
+kernRight = "zayin-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -22497,6 +22549,8 @@ width = 251;
 {
 color = 5;
 glyphname = uni05D6_uni05F3;
+kernLeft = "zayin-hb";
+kernRight = "zayin-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -22615,6 +22669,8 @@ width = 251;
 {
 color = 4;
 glyphname = "lamed_alef-hb";
+kernLeft = "alef-hb";
+kernRight = "lamed-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -22634,6 +22690,8 @@ width = 695;
 {
 color = 5;
 glyphname = uni05DF_uni05F3;
+kernLeft = "finalnun-hb";
+kernRight = "finalnun-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -22755,6 +22813,8 @@ width = 306;
 {
 color = 5;
 glyphname = uni05E1_uni05F3;
+kernLeft = "finalmem-hb";
+kernRight = "samekh-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -22976,6 +23036,8 @@ width = 746;
 {
 color = 5;
 glyphname = uni05E4_uni05F3;
+kernLeft = "pe-hb";
+kernRight = "pe-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -23160,25 +23222,30 @@ width = 486;
 {
 color = 4;
 glyphname = "resh_alef-hb";
+kernLeft = "alef-hb";
+kernRight = "resh-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
 shapes = (
 {
-pos = (636,0);
+alignment = -1;
+pos = (566,0);
 ref = "resh-hb";
 },
 {
 ref = "alef-hb";
 }
 );
-width = 980;
+width = 910;
 }
 );
 },
 {
 color = 5;
 glyphname = uni05E8_uni05D1_uni05F3;
+kernLeft = "bet-hb";
+kernRight = "resh-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -23443,6 +23510,8 @@ width = 702;
 {
 color = 5;
 glyphname = uni05E8_uni05D9;
+kernLeft = "mem-hb";
+kernRight = "resh-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -23605,6 +23674,8 @@ width = 569;
 {
 color = 5;
 glyphname = uni05E9_uni05F3;
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -46573,6 +46644,7 @@ kerningRTL = {
 "@MMK_L_kaf-hb" = 40;
 "@MMK_L_lamed-hb" = 40;
 "@MMK_L_pehebrew" = 60;
+"@MMK_L_quotesingle" = -100;
 "@MMK_L_shin-hb" = 40;
 };
 "@MMK_R_dalet-hb" = {
@@ -46582,6 +46654,7 @@ kerningRTL = {
 "@MMK_L_space" = 100;
 };
 "@MMK_R_finalpe-hb" = {
+"@MMK_L_comma" = 100;
 "@MMK_L_period" = 100;
 };
 "@MMK_R_gimel-hb" = {
@@ -46614,14 +46687,20 @@ kerningRTL = {
 "@MMK_R_qof-hb" = {
 "@MMK_L_finalnun-hb" = 120;
 };
+"@MMK_R_quotesingle" = {
+"@MMK_L_he-hb" = -200;
+};
 "@MMK_R_resh-hb" = {
-"@MMK_L_alef-hb" = 440;
+"@MMK_L_alef-hb" = 370;
 "@MMK_L_he-hb" = -80;
 "@MMK_L_lamed-hb" = 280;
 "@MMK_L_quotesingle" = 230;
 "@MMK_L_resh-hb" = 270;
 "@MMK_L_space" = 120;
 "@MMK_L_yod-hb" = 100;
+};
+"@MMK_R_samekh-hb" = {
+"@MMK_L_comma" = 60;
 };
 "@MMK_R_shin-hb" = {
 "@MMK_L_resh-hb" = -20;
