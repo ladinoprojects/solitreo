@@ -1,6 +1,9 @@
 {
 .appVersion = "3140";
 .formatVersion = 3;
+DisplayStrings = (
+"א"
+);
 axes = (
 {
 name = Weight;
@@ -651,6 +654,8 @@ unicode = 256;
 {
 color = 5;
 glyphname = Aogonek;
+kernLeft = A;
+kernRight = A;
 layers = (
 {
 anchors = (
@@ -936,7 +941,8 @@ y = 0;
 {
 color = 5;
 glyphname = B;
-kernLeft = I;
+kernLeft = B;
+kernRight = B;
 layers = (
 {
 anchors = (
@@ -1102,7 +1108,7 @@ y = 0;
 {
 color = 5;
 glyphname = C;
-kernLeft = O;
+kernLeft = C;
 kernRight = C;
 layers = (
 {
@@ -1416,7 +1422,7 @@ unicode = 266;
 {
 color = 5;
 glyphname = D;
-kernLeft = I;
+kernLeft = D;
 kernRight = D;
 layers = (
 {
@@ -2107,6 +2113,7 @@ unicode = 280;
 color = 5;
 glyphname = F;
 kernLeft = I;
+kernRight = F;
 layers = (
 {
 anchors = (
@@ -3045,7 +3052,7 @@ unicode = 302;
 color = 5;
 glyphname = J;
 kernLeft = J;
-kernRight = U;
+kernRight = J;
 layers = (
 {
 anchors = (
@@ -4478,6 +4485,7 @@ y = 0;
 color = 5;
 glyphname = P;
 kernLeft = I;
+kernRight = P;
 layers = (
 {
 anchors = (
@@ -46609,28 +46617,10 @@ instanceInterpolations = {
 name = Regular;
 }
 );
-kerningLTR = {
-"FF2DC345-5101-49B6-97F3-57A040F7C387" = {
-"@MMK_L_dalethebrew" = {
-space = 0;
-};
-"@MMK_L_lamedhebrew" = {
-"@MMK_R_hethebrew" = -20;
-};
-"@MMK_L_tavhebrew" = {
-"@MMK_R_hethebrew" = -60;
-};
-"@MMK_L_vavhebrew" = {
-"@MMK_R_dalethebrew" = 60;
-};
-"@MMK_L_yodhebrew" = {
-"@MMK_R_hethebrew" = -20;
-};
-};
-};
 kerningRTL = {
 "FF2DC345-5101-49B6-97F3-57A040F7C387" = {
 "@MMK_R_alef-hb" = {
+"@MMK_L_comma" = 80;
 "@MMK_L_period" = 100;
 };
 "@MMK_R_ayin-hb" = {
@@ -46648,10 +46638,11 @@ kerningRTL = {
 "@MMK_L_shin-hb" = 40;
 };
 "@MMK_R_dalet-hb" = {
+"@MMK_L_alef-hb" = 320;
 "@MMK_L_finalpe-hb" = 340;
 "@MMK_L_he-hb" = -60;
-"@MMK_L_resh-hb" = 320;
-"@MMK_L_space" = 100;
+"@MMK_L_resh-hb" = 290;
+"@MMK_L_space" = 160;
 };
 "@MMK_R_finalpe-hb" = {
 "@MMK_L_comma" = 100;
@@ -46672,17 +46663,22 @@ kerningRTL = {
 "@MMK_L_lamed-hb" = -60;
 "@MMK_L_mem-hb" = -200;
 "@MMK_L_qof-hb" = -70;
+"@MMK_L_resh-hb" = -120;
 "@MMK_L_tav-hb" = -100;
 "@MMK_L_tet-hb" = -100;
-"@MMK_L_vav-hb" = -140;
+"@MMK_L_vav-hb" = -100;
 "@MMK_L_yod-hb" = -100;
 "@MMK_L_zayin-hb" = -180;
+};
+"@MMK_R_kaf-hb" = {
+"@MMK_L_finalmem-hb" = 30;
 };
 "@MMK_R_kafhebrew" = {
 "@MMK_L_lamed-hb" = 40;
 };
 "@MMK_R_lamed-hb" = {
 "@MMK_L_alef-hb" = 80;
+"@MMK_L_tsadi-hb" = 300;
 };
 "@MMK_R_qof-hb" = {
 "@MMK_L_finalnun-hb" = 120;
@@ -46691,40 +46687,43 @@ kerningRTL = {
 "@MMK_L_he-hb" = -200;
 };
 "@MMK_R_resh-hb" = {
-"@MMK_L_alef-hb" = 370;
+"@MMK_L_alef-hb" = 390;
 "@MMK_L_he-hb" = -80;
 "@MMK_L_lamed-hb" = 280;
 "@MMK_L_quotesingle" = 230;
 "@MMK_L_resh-hb" = 270;
 "@MMK_L_space" = 120;
+"@MMK_L_tsadi-hb" = 600;
 "@MMK_L_yod-hb" = 100;
 };
 "@MMK_R_samekh-hb" = {
 "@MMK_L_comma" = 60;
 };
 "@MMK_R_shin-hb" = {
+"@MMK_L_comma" = 100;
+"@MMK_L_period" = 60;
 "@MMK_L_resh-hb" = -20;
 };
 "@MMK_R_tav-hb" = {
+"@MMK_L_tav-hb" = 270;
 "@MMK_L_vav-hb" = -50;
 "@MMK_L_yod-hb" = -60;
-space = 0;
 };
 "@MMK_R_tet-hb" = {
 "@MMK_L_comma" = 60;
 };
 "@MMK_R_tsadi-hb" = {
 "@MMK_L_alef-hb" = 420;
+"@MMK_L_quotesingle" = 220;
+"@MMK_L_yod-hb" = 60;
 };
 "@MMK_R_vav-hb" = {
 "@MMK_L_comma" = 80;
+"@MMK_L_finalnun-hb" = -30;
+"@MMK_L_period" = 40;
 };
 "@MMK_R_yod-hb" = {
 "@MMK_L_resh-hb" = -50;
-};
-space = {
-"@MMK_L_mem-hb" = -100;
-"@MMK_L_vav-hb" = -100;
 };
 };
 };
