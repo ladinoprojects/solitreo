@@ -1,9 +1,6 @@
 {
-.appVersion = "3140";
+.appVersion = "3146";
 .formatVersion = 3;
-DisplayStrings = (
-"א"
-);
 axes = (
 {
 name = Weight;
@@ -29578,22 +29575,23 @@ layers = (
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
 shapes = (
 {
+alignment = -1;
+pos = (10,0);
 ref = one.numr;
 },
 {
-pos = (258,0);
+alignment = -1;
+pos = (186,0);
 ref = fraction;
 },
 {
-pos = (433,0);
+pos = (271,0);
 ref = two.dnom;
 }
 );
-width = 774;
+width = 575;
 }
 );
-metricLeft = one.numr;
-metricRight = one.numr;
 unicode = 189;
 },
 {
@@ -29604,22 +29602,24 @@ layers = (
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
 shapes = (
 {
+alignment = -1;
+pos = (10,0);
 ref = one.numr;
 },
 {
-pos = (258,0);
+alignment = -1;
+pos = (186,0);
 ref = fraction;
 },
 {
-pos = (433,0);
+alignment = -1;
+pos = (240,0);
 ref = four.dnom;
 }
 );
-width = 776;
+width = 575;
 }
 );
-metricLeft = one.numr;
-metricRight = one.numr;
 unicode = 188;
 },
 {
@@ -29630,22 +29630,24 @@ layers = (
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
 shapes = (
 {
+alignment = -1;
+pos = (-46,0);
 ref = three.numr;
 },
 {
-pos = (341,0);
+alignment = -1;
+pos = (206,0);
 ref = fraction;
 },
 {
-pos = (516,0);
+alignment = -1;
+pos = (235,0);
 ref = four.dnom;
 }
 );
-width = 859;
+width = 595;
 }
 );
-metricLeft = three.numr;
-metricRight = three.numr;
 unicode = 190;
 },
 {
