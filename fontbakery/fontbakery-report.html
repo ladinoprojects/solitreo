@@ -75,9 +75,9 @@
                 <td>0</td>
                 <td>0</td>
                 <td>7</td>
-                <td>112</td>
+                <td>111</td>
                 <td>7</td>
-                <td>101</td>
+                <td>102</td>
             </tr>
             <tr>
                 <td>0%</td>
@@ -85,12 +85,12 @@
                 <td>4%</td>
                 <td>68%</td>
                 <td>4%</td>
-                <td>62%</td>
+                <td>63%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; ⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h2>&lt;Section: Google Fonts&gt; ⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Checking OS/2 achVendID.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vendor_id&gt;</div>
 
@@ -102,6 +102,99 @@
 
 <details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]</p>
 </span></li></ul></div></details>
+<h3>Is there kerning info for non-ligated sequences?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- uni05D1 + uni05F3
+
+- uni05F3 + quoteright
+
+- quoteright + quotesingle
+
+- uni05D2 + uni05F3
+
+- uni05F3 + uni05D5
+
+- uni05D5 + uni05F3
+
+- uni05F3 + uni05D9
+
+- uni05D9 + quoteright
+
+- quoteright + uni05D5
+
+- uni05D5 + quoteright
+
+- quoteright + uni05D9
+
+- uni05D9 + quotesingle
+
+- quotesingle + uni05D5
+
+- uni05D5 + quotesingle
+
+- quotesingle + uni05D9
+
+- uni05D9 + uni05F3
+
+- uni05D5 + uni05D9
+
+- uni05D3 + uni05F3
+
+- uni05D9 + uni05D9
+
+- uni05D9 + uni05D5
+
+- uni05D4 + uni05F3
+
+- uni05D6 + uni05F3
+
+- uni05DC + uni05D0
+
+- uni05DF + uni05F3
+
+- uni05E1 + uni05F3
+
+- uni05E4 + uni05F3
+
+- uni05E8 + uni05D1
+
+- uni05F3 + uni05D1
+
+- uni05D1 + quoteright
+
+- quoteright + uni05D1
+
+- uni05D1 + quotesingle
+
+- quotesingle + uni05D0
+
+- uni05D0 + uni05D9
+
+- uni05E9 + uni05F3
+
+- uni05D2.alt + uni05F3
+
+- uni05D3.alt + uni05F3
+
+- quotedblleft + quotedblleft
+
+- quotedblright + quotedblright
+
+- quotedbl + quotedbl
+
+- quotedbl + quotedblright
+
+- quotedblright + quotedbl
+
+- greater + greater
+
+- less + less 
+
+- And comma + comma [code: lacks-kern-info]
+</code></pre>
+</span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
 
@@ -112,7 +205,15 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- brevecombcy
+<pre><code>- Eng
+
+- Nacute
+
+- Ncaron
+
+- Ntilde
+
+- brevecombcy
 
 - eight.dnom
 
@@ -149,6 +250,8 @@
 - two.dnom
 
 - two.numr
+
+- uni0145
 
 - uni05D2.alt
 
@@ -188,12 +291,6 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
-</span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.gpos&gt; ⚠️</h2>
-<h3>Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gpos_kerning_info&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/Solitreo-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning information. [code: lacks-kern-info]</p>
 </span></li></ul></div></details>
                     </body>
                 </html>

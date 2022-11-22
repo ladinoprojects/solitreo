@@ -11,6 +11,98 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- uni05D1 + uni05F3
+
+	- uni05F3 + quoteright
+
+	- quoteright + quotesingle
+
+	- uni05D2 + uni05F3
+
+	- uni05F3 + uni05D5
+
+	- uni05D5 + uni05F3
+
+	- uni05F3 + uni05D9
+
+	- uni05D9 + quoteright
+
+	- quoteright + uni05D5
+
+	- uni05D5 + quoteright
+
+	- quoteright + uni05D9
+
+	- uni05D9 + quotesingle
+
+	- quotesingle + uni05D5
+
+	- uni05D5 + quotesingle
+
+	- quotesingle + uni05D9
+
+	- uni05D9 + uni05F3
+
+	- uni05D5 + uni05D9
+
+	- uni05D3 + uni05F3
+
+	- uni05D9 + uni05D9
+
+	- uni05D9 + uni05D5
+
+	- uni05D4 + uni05F3
+
+	- uni05D6 + uni05F3
+
+	- uni05DC + uni05D0
+
+	- uni05DF + uni05F3
+
+	- uni05E1 + uni05F3
+
+	- uni05E4 + uni05F3
+
+	- uni05E8 + uni05D1
+
+	- uni05F3 + uni05D1
+
+	- uni05D1 + quoteright
+
+	- quoteright + uni05D1
+
+	- uni05D1 + quotesingle
+
+	- quotesingle + uni05D0
+
+	- uni05D0 + uni05D9
+
+	- uni05E9 + uni05F3
+
+	- uni05D2.alt + uni05F3
+
+	- uni05D3.alt + uni05F3
+
+	- quotedblleft + quotedblleft
+
+	- quotedblright + quotedblright
+
+	- quotedbl + quotedbl
+
+	- quotedbl + quotedblright
+
+	- quotedblright + quotedbl
+
+	- greater + greater
+
+	- less + less 
+
+	- And comma + comma [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -19,6 +111,14 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- Eng
+
+	- Nacute
+
+	- Ncaron
+
+	- Ntilde
 
 	- brevecombcy
 
@@ -58,6 +158,8 @@ Fontbakery version: 0.8.10
 
 	- two.numr
 
+	- uni0145
+
 	- uni05D2.alt
 
 	- uni05D3.alt
@@ -94,17 +196,13 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 7 | 112 | 7 | 101 | 0 |
-| 0% | 0% | 3% | 49% | 3% | 44% | 0% |
+| 0 | 0 | 7 | 111 | 7 | 102 | 0 |
+| 0% | 0% | 3% | 49% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
