@@ -112,14 +112,6 @@ Fontbakery version: 0.8.10
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- Eng
-
-	- Nacute
-
-	- Ncaron
-
-	- Ntilde
-
 	- brevecombcy
 
 	- eight.dnom
@@ -157,8 +149,6 @@ Fontbakery version: 0.8.10
 	- two.dnom
 
 	- two.numr
-
-	- uni0145
 
 	- uni05D2.alt
 
