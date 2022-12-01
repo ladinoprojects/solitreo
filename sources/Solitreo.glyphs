@@ -1687,7 +1687,7 @@ unicode = 272;
 {
 color = 5;
 glyphname = E;
-kernLeft = E;
+kernLeft = I;
 kernRight = E;
 layers = (
 {
@@ -1829,7 +1829,7 @@ y = 0;
 {
 color = 4;
 glyphname = Eacute;
-kernLeft = E;
+kernLeft = I;
 kernRight = E;
 layers = (
 {
@@ -1862,7 +1862,7 @@ y = 0;
 {
 color = 4;
 glyphname = Ecaron;
-kernLeft = E;
+kernLeft = I;
 kernRight = E;
 layers = (
 {
@@ -1884,7 +1884,7 @@ unicode = 282;
 {
 color = 4;
 glyphname = Ecircumflex;
-kernLeft = E;
+kernLeft = I;
 kernRight = E;
 layers = (
 {
@@ -1917,7 +1917,7 @@ y = 0;
 {
 color = 4;
 glyphname = Edieresis;
-kernLeft = E;
+kernLeft = I;
 kernRight = E;
 layers = (
 {
@@ -1950,7 +1950,7 @@ y = 0;
 {
 color = 4;
 glyphname = Edotaccent;
-kernLeft = E;
+kernLeft = I;
 kernRight = E;
 layers = (
 {
@@ -1972,7 +1972,7 @@ unicode = 278;
 {
 color = 4;
 glyphname = Egrave;
-kernLeft = E;
+kernLeft = I;
 kernRight = E;
 layers = (
 {
@@ -2005,7 +2005,7 @@ y = 0;
 {
 color = 4;
 glyphname = Emacron;
-kernLeft = E;
+kernLeft = I;
 kernRight = E;
 layers = (
 {
@@ -2027,7 +2027,7 @@ unicode = 274;
 {
 color = 5;
 glyphname = Eogonek;
-kernLeft = E;
+kernLeft = I;
 kernRight = E;
 layers = (
 {
@@ -2133,7 +2133,7 @@ unicode = 280;
 {
 color = 5;
 glyphname = F;
-kernLeft = F;
+kernLeft = I;
 kernRight = F;
 layers = (
 {
@@ -2346,7 +2346,7 @@ nodes = (
 );
 }
 );
-width = 611;
+width = 605;
 }
 );
 unicode = 71;
@@ -2421,7 +2421,7 @@ pos = (223,0);
 ref = brevecomb.case;
 }
 );
-width = 611;
+width = 605;
 }
 );
 unicode = 286;
@@ -2443,7 +2443,7 @@ pos = (147,0);
 ref = commaaccentcomb.case;
 }
 );
-width = 611;
+width = 605;
 }
 );
 unicode = 290;
@@ -2465,7 +2465,7 @@ pos = (243,0);
 ref = dotaccentcomb.case;
 }
 );
-width = 611;
+width = 605;
 }
 );
 unicode = 288;
@@ -3748,6 +3748,7 @@ nodes = (
 width = 677;
 }
 );
+unicode = 78;
 userData = {
 com.typemytype.robofont.guides = (
 {
@@ -3801,6 +3802,7 @@ ref = acutecomb.case;
 width = 677;
 }
 );
+unicode = 323;
 },
 {
 color = 4;
@@ -3822,6 +3824,7 @@ ref = caroncomb.case;
 width = 677;
 }
 );
+unicode = 327;
 },
 {
 color = 4;
@@ -3843,6 +3846,7 @@ ref = commaaccentcomb.case;
 width = 677;
 }
 );
+unicode = 325;
 },
 {
 color = 4;
@@ -3864,6 +3868,7 @@ ref = tildecomb.case;
 width = 677;
 }
 );
+unicode = 209;
 userData = {
 com.typemytype.robofont.guides = (
 {
@@ -3942,6 +3947,7 @@ nodes = (
 width = 677;
 }
 );
+unicode = 330;
 },
 {
 color = 5;
@@ -34173,6 +34179,8 @@ unicode = 8230;
 {
 color = 5;
 glyphname = exclam;
+kernLeft = exclam;
+kernRight = exclam;
 layers = (
 {
 hints = (
@@ -35890,60 +35898,6 @@ nodes = (
 }
 );
 width = 472;
-},
-{
-associatedMasterId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
-hints = (
-{
-horizontal = 1;
-place = (-41, 0);
-type = Tag;
-}
-);
-layerId = "17E48DF8-BF46-4D32-A127-975BE63A58EA";
-name = "Mar 29, 22, 00:39";
-shapes = (
-{
-closed = 1;
-nodes = (
-(15,-87,o),
-(-50,-83,o),
-(-62,-71,cs),
-(-71,-63,o),
-(-75,-54,o),
-(-75,-46,cs),
-(-75,-38,o),
-(-71,-32,o),
-(-62,-30,cs),
-(-58,-29,o),
-(-50,-29,o),
-(-37,-29,cs),
-(-11,-29,o),
-(32,-30,o),
-(81,-30,cs),
-(159,-30,o),
-(251,-26,o),
-(314,-4,cs),
-(316,-3,o),
-(317,-3,o),
-(319,-3,cs),
-(329,-3,o),
-(343,-11,o),
-(352,-29,cs),
-(356,-36,o),
-(357,-43,o),
-(357,-48,cs),
-(357,-59,o),
-(350,-66,o),
-(342,-69,cs),
-(313,-79,o),
-(192,-87,o),
-(90,-87,cs)
-);
-}
-);
-visible = 1;
-width = 496;
 }
 );
 unicode = 95;
@@ -37093,79 +37047,6 @@ nodes = (
 }
 );
 width = 325;
-},
-{
-associatedMasterId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
-layerId = "EA146C10-C582-4954-BC4A-3EF57700642E";
-name = "Mar 29, 22, 08:09";
-shapes = (
-{
-closed = 1;
-nodes = (
-(254,571,o),
-(262,577,o),
-(275,577,cs),
-(283,577,o),
-(293,575,o),
-(305,570,cs),
-(320,562,o),
-(325,553,o),
-(325,544,cs),
-(325,539,o),
-(324,535,o),
-(321,532,cs),
-(291,487,o),
-(223,414,o),
-(188,406,cs),
-(184,405,o),
-(181,405,o),
-(177,405,cs),
-(162,405,o),
-(152,413,o),
-(152,423,cs),
-(152,425,o),
-(153,426,o),
-(153,428,cs),
-(159,445,o),
-(194,480,o),
-(250,565,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(102,570,o),
-(109,576,o),
-(123,576,cs),
-(131,576,o),
-(140,574,o),
-(152,568,cs),
-(167,561,o),
-(173,551,o),
-(173,543,cs),
-(173,538,o),
-(171,534,o),
-(169,531,cs),
-(138,486,o),
-(70,413,o),
-(35,405,cs),
-(32,404,o),
-(28,404,o),
-(25,404,cs),
-(10,404,o),
-(0,412,o),
-(0,422,cs),
-(0,424,o),
-(0,425,o),
-(1,427,cs),
-(6,444,o),
-(42,479,o),
-(98,564,cs)
-);
-}
-);
-visible = 1;
-width = 325;
 }
 );
 unicode = 8220;
@@ -37290,47 +37171,6 @@ nodes = (
 );
 }
 );
-width = 228.375;
-},
-{
-associatedMasterId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
-layerId = "0FD9DA69-3731-4E23-9C83-F311525BDF93";
-name = "Mar 29, 22, 08:08";
-shapes = (
-{
-closed = 1;
-nodes = (
-(131,634,o),
-(139,640,o),
-(152,640,cs),
-(160,640,o),
-(170,638,o),
-(182,632,cs),
-(197,625,o),
-(202,615,o),
-(202,607,cs),
-(202,602,o),
-(201,598,o),
-(198,594,cs),
-(168,550,o),
-(100,476,o),
-(65,469,cs),
-(61,468,o),
-(58,467,o),
-(54,467,cs),
-(39,467,o),
-(29,475,o),
-(29,486,cs),
-(29,487,o),
-(30,489,o),
-(30,491,cs),
-(36,508,o),
-(71,543,o),
-(127,628,cs)
-);
-}
-);
-visible = 1;
 width = 228.375;
 }
 );
@@ -47968,8 +47808,37 @@ kerningLTR = {
 "@MMK_R_u" = -80;
 "@MMK_R_z" = -30;
 };
+"@MMK_L_exclam" = {
+"@MMK_R_quoteright" = 100;
+};
 "@MMK_L_i" = {
 "@MMK_R_quotesingle" = 60;
+};
+"@MMK_L_quoteleft" = {
+"@MMK_R_A" = -140;
+"@MMK_R_I" = -80;
+"@MMK_R_J" = -80;
+"@MMK_R_O" = -140;
+"@MMK_R_S" = -80;
+Germandbls = -80;
+};
+"@MMK_L_quoteright" = {
+"@MMK_R_a" = -200;
+"@MMK_R_f" = -100;
+"@MMK_R_h" = -100;
+"@MMK_R_i" = -100;
+"@MMK_R_j" = -100;
+"@MMK_R_l" = -100;
+"@MMK_R_n" = -100;
+"@MMK_R_o" = -200;
+"@MMK_R_p" = -100;
+"@MMK_R_s" = -220;
+"@MMK_R_t" = -100;
+"@MMK_R_u" = -150;
+"@MMK_R_v" = -100;
+"@MMK_R_x" = -130;
+"@MMK_R_y" = -180;
+"@MMK_R_z" = -140;
 };
 "@MMK_L_quotesingle" = {
 "@MMK_R_a" = -60;
