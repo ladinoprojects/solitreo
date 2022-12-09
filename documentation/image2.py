@@ -5,8 +5,9 @@
 
 # $ git clone my-font
 # $ cd my-font
-# $ python3 documentation/image1.py --output documentation/image1.png
-
+# $ python3 documentation/image2.py --output documentation/image2.png
+#// optional command to compress the image:
+# $ convert image2.png +dither -colors 64 -depth 4 image2.png && open image2.png
 
 # Import moduels from external python packages: https://pypi.org/
 from drawbot_skia.drawbot import *
@@ -28,7 +29,7 @@ BIG_TEXT_C = "די אינג'יר, סין מאנקאר נאד'ה. אי קי ב'ו
 BIG_TEXT_D = "אין יינה קונסיינסייה, אי אין סאלוד', איספירו"
 BIG_TEXT_E = "קי מי אונוראריש, דיספואיס די מי מואירטי"
 BIG_TEXT_F = "אל טאנטו קי מי אונוראטיש אין ב'יד'ה"
-BIG_TEXT_G = "פאס אי אונייון! י"
+BIG_TEXT_G = "פאס אי אונייון!"
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.9
 GRID_VIEW = False # Change this to "True" for a grid overlay
@@ -103,7 +104,7 @@ def draw_main_text():
     # has support for textBox() and FormattedString
     #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
     #text(BIG_TEXT_A, (BIG_TEXT_SIDE_MARGIN-2, UNIT*25.75))
-    fontSize(150)
+    fontSize(116)
     text(BIG_TEXT_A, (UNIT*28, UNIT*26))
     text(BIG_TEXT_B, (UNIT*28, UNIT*23))
     text(BIG_TEXT_C, (UNIT*28, UNIT*20))
