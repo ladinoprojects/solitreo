@@ -1,9 +1,6 @@
 {
 .appVersion = "3149";
 .formatVersion = 3;
-DisplayStrings = (
-"עמײנער תּוכיקן"
-);
 axes = (
 {
 name = Weight;
@@ -15021,7 +15018,7 @@ type = Tag;
 }
 );
 };
-width = 803;
+width = 831;
 },
 {
 anchors = (
@@ -15136,7 +15133,7 @@ pos = (461,-292);
 ref = "dagesh-hb";
 }
 );
-width = 803;
+width = 831;
 }
 );
 unicode = 64306;
@@ -16559,10 +16556,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-23,-413,o),
-(-12,-409,o),
-(-1,-399,cs),
-(195,-221,o),
+(-13,-353,o),
+(-2,-349,o),
+(9,-339,cs),
+(205,-161,o),
 (172,-171,o),
 (318,196,cs),
 (331,231,o),
@@ -16593,14 +16590,14 @@ nodes = (
 (229,219,o),
 (222,200,cs),
 (104,-140,o),
-(68,-254,o),
-(-44,-365,cs),
-(-53,-375,o),
-(-58,-384,o),
-(-58,-392,cs),
-(-58,-405,o),
-(-47,-413,o),
-(-33,-413,cs)
+(78,-194,o),
+(-34,-305,cs),
+(-43,-315,o),
+(-48,-324,o),
+(-48,-332,cs),
+(-48,-345,o),
+(-37,-353,o),
+(-23,-353,cs)
 );
 }
 );
@@ -18402,7 +18399,8 @@ shapes = (
 ref = "finalpe-hb";
 },
 {
-pos = (154,9);
+alignment = -1;
+pos = (85,-149);
 ref = "dagesh-hb";
 }
 );
@@ -18445,7 +18443,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-372,-195,o),
+(-322,-195,o),
 (-241,-56,o),
 (105,-56,cs),
 (364,-56,o),
@@ -18482,11 +18480,11 @@ nodes = (
 (220,7,o),
 (88,7,cs),
 (-116,7,o),
-(-407,-102,o),
-(-407,-180,cs),
-(-407,-187,o),
-(-405,-195,o),
-(-397,-195,cs)
+(-357,-102,o),
+(-357,-180,cs),
+(-357,-187,o),
+(-355,-195,o),
+(-347,-195,cs)
 );
 }
 );
@@ -21162,7 +21160,7 @@ width = 383;
 color = 4;
 glyphname = uni05D2_uni05D5;
 kernLeft = "gimel-hb";
-kernRight = "gimel-hb";
+kernRight = uni05D2_uni05D5;
 layers = (
 {
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
@@ -21218,7 +21216,7 @@ pos = (258,0);
 ref = "geresh-hb";
 }
 );
-width = 803;
+width = 831;
 }
 );
 },
@@ -22935,14 +22933,14 @@ layers = (
 layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
 shapes = (
 {
-pos = (354,0);
+pos = (274,0);
 ref = "lamed-hb";
 },
 {
 ref = "alef-hb";
 }
 );
-width = 773;
+width = 693;
 }
 );
 },
@@ -23489,14 +23487,14 @@ layerId = "FF2DC345-5101-49B6-97F3-57A040F7C387";
 shapes = (
 {
 alignment = -1;
-pos = (566,0);
+pos = (606,0);
 ref = "resh-hb";
 },
 {
 ref = "alef-hb";
 }
 );
-width = 910;
+width = 950;
 }
 );
 },
@@ -23769,7 +23767,7 @@ width = 702;
 {
 color = 5;
 glyphname = uni05E8_uni05D9;
-kernLeft = "mem-hb";
+kernLeft = uni05E8_uni05D9;
 kernRight = "resh-hb";
 layers = (
 {
@@ -49607,6 +49605,9 @@ kerningLTR = {
 "@MMK_R_z" = -100;
 lslash = -120;
 };
+"@MMK_L_slash" = {
+"@MMK_R_s" = -90;
+};
 acute = {
 "@MMK_R_f" = -100;
 };
@@ -49619,7 +49620,11 @@ kerningRTL = {
 };
 "@MMK_R_alef-hb" = {
 "@MMK_L_comma" = 80;
+"@MMK_L_gimel-hb" = 70;
+"@MMK_L_lamed-hb" = 20;
 "@MMK_L_period" = 100;
+"@MMK_L_tsadi-hb" = 230;
+"@MMK_L_uni05D2_uni05D5" = 70;
 };
 "@MMK_R_ayin-hb" = {
 "@MMK_L_period" = 70;
@@ -49631,7 +49636,9 @@ kerningRTL = {
 "@MMK_L_het-hb" = 40;
 "@MMK_L_kaf-hb" = 40;
 "@MMK_L_lamed-hb" = 40;
+"@MMK_L_pe-hb" = 70;
 "@MMK_L_pehebrew" = 60;
+"@MMK_L_qof-hb" = 60;
 "@MMK_L_quotesingle" = -100;
 "@MMK_L_shin-hb" = 40;
 };
@@ -49640,36 +49647,46 @@ kerningRTL = {
 };
 "@MMK_R_dalet-hb" = {
 "@MMK_L_alef-hb" = 320;
+"@MMK_L_dalet-hb" = 60;
 "@MMK_L_finalpe-hb" = 340;
-"@MMK_L_he-hb" = -60;
+"@MMK_L_he-hb" = -20;
 "@MMK_L_resh-hb" = 290;
 "@MMK_L_space" = 160;
+};
+"@MMK_R_finalmem-hb" = {
+"@MMK_L_comma" = 30;
 };
 "@MMK_R_finalnun-hb" = {
 "@MMK_L_exclam" = -100;
 };
 "@MMK_R_finalpe-hb" = {
-"@MMK_L_comma" = 10;
+"@MMK_L_comma" = 30;
 "@MMK_L_period" = 100;
 };
 "@MMK_R_geresh-hb" = {
 "@MMK_L_alef-hb" = 50;
 };
 "@MMK_R_gimel-hb" = {
-"@MMK_L_comma" = 200;
+"@MMK_L_comma" = 130;
 "@MMK_L_dalet-hb" = 100;
 "@MMK_L_finalmem-hb" = 60;
 "@MMK_L_mem-hb" = -40;
+"@MMK_L_resh-hb" = -70;
+"@MMK_L_tav-hb" = -30;
 "@MMK_L_vav-hb" = -50;
+"@MMK_L_zayin-hb" = -70;
 };
 "@MMK_R_he-hb" = {
-"@MMK_L_alef-hb" = -60;
+"@MMK_L_alef-hb" = -130;
+"@MMK_L_ayin-hb" = -60;
+"@MMK_L_comma" = 30;
 "@MMK_L_dalet-hb" = -60;
-"@MMK_L_gimel-hb" = -60;
+"@MMK_L_gimel-hb" = -80;
 "@MMK_L_he-hb" = -60;
 "@MMK_L_het-hb" = -40;
 "@MMK_L_lamed-hb" = -60;
-"@MMK_L_mem-hb" = -200;
+"@MMK_L_mem-hb" = -180;
+"@MMK_L_pe-hb" = -20;
 "@MMK_L_qof-hb" = -70;
 "@MMK_L_resh-hb" = -120;
 "@MMK_L_tav-hb" = -100;
@@ -49679,68 +49696,114 @@ kerningRTL = {
 "@MMK_L_yod-hb" = -100;
 "@MMK_L_zayin-hb" = -180;
 };
+"@MMK_R_het-hb" = {
+"@MMK_L_resh-hb" = -50;
+};
 "@MMK_R_kaf-hb" = {
+"@MMK_L_alef-hb" = -50;
+"@MMK_L_bet-hb" = 40;
 "@MMK_L_finalmem-hb" = 30;
+"@MMK_L_lamed-hb" = 30;
 };
 "@MMK_R_kafhebrew" = {
 "@MMK_L_lamed-hb" = 40;
 };
 "@MMK_R_lamed-hb" = {
-"@MMK_L_alef-hb" = 80;
+"@MMK_L_alef-hb" = 0;
+"@MMK_L_comma" = 20;
+"@MMK_L_mem-hb" = 20;
 "@MMK_L_tsadi-hb" = 300;
 };
 "@MMK_R_mem-hb" = {
+"@MMK_L_alef-hb" = -60;
 "@MMK_L_geresh-hb" = -200;
 };
 "@MMK_R_nun-hb" = {
+"@MMK_L_gimel-hb" = 80;
 "@MMK_L_pe-hb" = 40;
 };
 "@MMK_R_pe-hb" = {
-"@MMK_L_gimel-hb" = 40;
+"@MMK_L_alef-hb" = -30;
+"@MMK_L_finaltsadi-hb" = 30;
+"@MMK_L_gimel-hb" = 60;
 "@MMK_L_qof-hb" = 100;
+"@MMK_L_vav-hb" = -30;
+};
+"@MMK_R_qof-hb" = {
+"@MMK_L_alef-hb" = -190;
+"@MMK_L_he-hb" = -120;
+"@MMK_L_lamed-hb" = -130;
+"@MMK_L_resh-hb" = -140;
+"@MMK_L_shin-hb" = -140;
+"@MMK_L_tet-hb" = -140;
+"@MMK_L_tsadi-hb" = -100;
+"@MMK_L_vav-hb" = -150;
+"@MMK_L_yod-hb" = -180;
 };
 "@MMK_R_quotesingle" = {
-"@MMK_L_he-hb" = -200;
+"@MMK_L_he-hb" = -100;
+"@MMK_L_vav-hb" = -40;
 };
 "@MMK_R_resh-hb" = {
-"@MMK_L_alef-hb" = 400;
+"@MMK_L_alef-hb" = 350;
+"@MMK_L_comma" = 30;
 "@MMK_L_he-hb" = -80;
 "@MMK_L_lamed-hb" = 280;
 "@MMK_L_quotesingle" = 230;
 "@MMK_L_resh-hb" = 270;
 "@MMK_L_space" = 120;
 "@MMK_L_tsadi-hb" = 600;
-"@MMK_L_yod-hb" = 100;
 };
 "@MMK_R_samekh-hb" = {
+"@MMK_L_alef-hb" = -100;
 "@MMK_L_comma" = 30;
+"@MMK_L_finalpe-hb" = -50;
+"@MMK_L_vav-hb" = -60;
+"@MMK_L_yod-hb" = -20;
 };
 "@MMK_R_shin-hb" = {
 "@MMK_L_bet-hb" = -20;
 "@MMK_L_comma" = 100;
+"@MMK_L_gimel-hb" = -40;
+"@MMK_L_mem-hb" = -30;
 "@MMK_L_period" = 60;
 "@MMK_L_resh-hb" = -20;
+"@MMK_L_vav-hb" = -40;
+"@MMK_L_yod-hb" = -50;
 };
 "@MMK_R_tav-hb" = {
+"@MMK_L_comma" = 60;
 "@MMK_L_tav-hb" = 270;
 "@MMK_L_vav-hb" = -50;
-"@MMK_L_yod-hb" = -40;
+"@MMK_L_yod-hb" = -20;
 };
 "@MMK_R_tet-hb" = {
+"@MMK_L_alef-hb" = -60;
 "@MMK_L_comma" = 60;
 };
 "@MMK_R_tsadi-hb" = {
 "@MMK_L_alef-hb" = 420;
 "@MMK_L_dalet-hb" = 40;
 "@MMK_L_quotesingle" = 220;
-"@MMK_L_yod-hb" = 60;
+"@MMK_L_resh-hb" = 230;
+};
+"@MMK_R_uni05E8_uni05D9" = {
+"@MMK_L_gimel-hb" = 20;
 };
 "@MMK_R_vav-hb" = {
+"@MMK_L_alef-hb" = -40;
 "@MMK_L_comma" = 80;
+"@MMK_L_finalnun-hb" = -20;
+"@MMK_L_gimel-hb" = 70;
 "@MMK_L_period" = 40;
+"@MMK_L_uni05D2_uni05D5" = 60;
 };
 "@MMK_R_yod-hb" = {
+"@MMK_L_alef-hb" = -60;
+"@MMK_L_comma" = 20;
+"@MMK_L_gimel-hb" = 30;
 "@MMK_L_resh-hb" = -50;
+"@MMK_L_uni05D2_uni05D5" = 50;
 };
 backslash = {
 "@MMK_L_a" = -60;
